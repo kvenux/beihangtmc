@@ -1,0 +1,114 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Nancy · 北航 Toastmasters 会员档案</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#e7dec7;--paper2:#f3eeda;--cream:#fbf7ec;--ink:#24301b;--soft:#444e36;--muted:#857e62;
+--clover:#4f7d44;--clover-deep:#33602e;--clover-bright:#74a85f;--gold:#bd8a38;--gold-deep:#996b1f;--line:#d1c5a4;--rule:#c4b690;
+--serif:"Noto Serif SC",Georgia,serif;--fr:"Fraunces",Georgia,serif;--hw:"Ma Shan Zheng",cursive;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.85;font-size:16px;
+background-image:radial-gradient(ellipse at 12% 0%,rgba(79,125,68,.10),transparent 55%),radial-gradient(ellipse at 92% 100%,rgba(189,138,56,.08),transparent 52%)}
+.grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:var(--clover-deep)}
+.clover{width:1em;height:1em;display:inline-block;vertical-align:-.12em;fill:currentColor}.clover.xs{width:.9em;height:.9em}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px 90px}
+.topnav{display:flex;gap:18px;padding:18px 22px;max-width:880px;margin:0 auto;font-size:14px}
+.topnav a{color:var(--clover-deep);text-decoration:none}.topnav a:hover{text-decoration:underline}
+/* header */
+.phead{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:14px 0 8px;border-bottom:1px solid var(--rule);margin-bottom:26px}
+.avatar{width:104px;height:104px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 26px -12px rgba(30,40,12,.5);flex:none;background:var(--cream)}
+.avatar.ph{display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:42px;color:var(--clover)}
+.pid{min-width:0}
+.pname{font-family:var(--serif);font-weight:900;font-size:clamp(30px,6vw,46px);line-height:1.05;margin:0}
+.pname .real{font-size:.5em;color:var(--gold-deep);font-weight:600;margin-left:.4em}
+.ptag{color:var(--soft);font-size:15px;margin:8px 0 10px;max-width:48em}
+.pbadges{display:flex;gap:8px;flex-wrap:wrap}
+.pb{font-size:12.5px;background:rgba(79,125,68,.12);color:var(--clover-deep);border:1px solid rgba(79,125,68,.28);border-radius:999px;padding:3px 11px}
+.pb.gold{background:rgba(189,138,56,.14);color:var(--gold-deep);border-color:rgba(189,138,56,.3)}
+/* sections */
+.sec{margin:30px 0}
+.sec h3{font-family:var(--serif);font-weight:700;font-size:21px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
+.sec h3 .clover{color:var(--gold)}
+.bio p{margin:0 0 1em;color:var(--soft);text-align:justify;font-size:16px}
+/* CC progression */
+.cc{display:flex;flex-wrap:wrap;gap:8px}
+.ccnode{flex:1 1 84px;min-width:84px;border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:var(--cream);text-align:center;position:relative}
+.ccnode.done{background:linear-gradient(180deg,#5b8a4e,#3f6b33);border-color:var(--clover-deep);color:#fff;box-shadow:0 8px 18px -10px rgba(51,96,46,.5)}
+.ccnode .n{font-family:var(--serif);font-weight:900;font-size:18px}
+.ccnode .t{font-size:10.5px;line-height:1.25;margin-top:2px;opacity:.92}
+.ccnode.done .chk{position:absolute;top:4px;right:6px;font-size:11px}
+.ccmeta{font-size:13px;color:var(--muted);margin-top:8px}
+/* speeches */
+.spk{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin-bottom:16px}
+.spk .sh{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.spk .proj{font-size:11.5px;font-weight:700;color:#fff;background:var(--clover);border-radius:5px;padding:1px 8px}
+.spk .stt{font-family:var(--serif);font-weight:700;font-size:16.5px;color:var(--ink)}
+.spk .sd{font-family:var(--fr);font-style:italic;color:var(--muted);font-size:12.5px}
+.spk .ss{color:var(--soft);font-size:14.5px;margin-top:3px}
+/* roles / chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.rolechip{font-size:13.5px;background:var(--cream);border:1px solid var(--line);border-radius:8px;padding:5px 12px;color:var(--soft)}
+.rolechip b{color:var(--clover-deep)}.rolechip i{font-style:normal;color:var(--gold-deep);font-weight:700;margin-left:3px}
+/* milestones */
+.ms{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule);margin-left:6px}
+.ms li{position:relative;padding:0 0 16px 22px}
+.ms li::before{content:"";position:absolute;left:-7px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--clover);border:2px solid var(--paper)}
+.ms .md{font-family:var(--fr);font-style:italic;color:var(--gold-deep);font-size:13px}
+.ms .mt{font-weight:700;color:var(--ink);font-size:15px}
+.ms .mn{color:var(--soft);font-size:13.5px}
+.contrib{margin:0;padding-left:20px;color:var(--soft)}.contrib li{margin-bottom:6px;font-size:15px}
+/* relationships */
+.rels{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.relbox{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.relbox .rt{font-size:13px;color:var(--muted);margin-bottom:8px}
+.nm{display:inline-block;font-size:13.5px;background:rgba(79,125,68,.1);border:1px solid var(--line);border-radius:999px;padding:3px 11px;margin:0 5px 5px 0;color:var(--ink);text-decoration:none}
+a.nm:hover{background:var(--clover);color:#fff;border-color:var(--clover)}
+/* photo wall */
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:7px}
+.pm{position:relative;margin:0;aspect-ratio:1;overflow:hidden;border-radius:6px;cursor:pointer;border:2px solid #fff;box-shadow:0 6px 14px -8px rgba(30,40,12,.5);transition:transform .25s}
+.pm img{width:100%;height:100%;object-fit:cover;display:block;filter:sepia(.1) saturate(.97);transition:.3s}
+.pm:hover{transform:scale(1.07);z-index:3}.pm:hover img{filter:none}
+.pm .vchk{position:absolute;top:3px;right:3px;width:17px;height:17px;border-radius:50%;background:var(--clover);color:#fff;font-size:10px;line-height:17px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.wnote{font-size:12.5px;color:var(--muted);margin-bottom:10px;font-family:var(--fr);font-style:italic}
+/* quote */
+.pquote{font-family:var(--serif);font-weight:600;font-size:clamp(18px,2.6vw,24px);line-height:1.6;color:var(--clover-deep);text-align:center;
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:26px 10px;margin:34px 0}
+.pquote.en{font-family:var(--fr);font-style:italic;font-weight:400}
+.pquote .qm{color:var(--gold);font-size:1.5em;font-family:var(--serif)}
+footer{text-align:center;padding:30px 22px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule);max-width:880px;margin:30px auto 0}
+.lb{position:fixed;inset:0;z-index:10000;background:rgba(20,26,12,.93);display:none;align-items:center;justify-content:center;padding:5vh 2vw;backdrop-filter:blur(5px)}
+.lb.open{display:flex}.lb-img{max-width:92vw;max-height:80vh;object-fit:contain;border:7px solid #fbf7ec;border-radius:2px;background:#fbf7ec}
+.lb-cap{position:absolute;bottom:2.4vh;left:0;right:0;text-align:center;color:#e7dec7;font-size:14px;font-family:var(--fr);font-style:italic;text-decoration:none;padding:0 16px}.lb-cap b{color:var(--clover-bright);font-style:normal}
+.lb button{position:absolute;background:rgba(251,247,236,.12);border:1px solid rgba(251,247,236,.32);color:#fbf7ec;cursor:pointer;border-radius:50%;width:48px;height:48px;font-size:25px}
+.lb-close{top:3vh;right:3vw}.lb-prev{left:2.5vw;top:50%;transform:translateY(-50%)}.lb-next{right:2.5vw;top:50%;transform:translateY(-50%)}
+@media(max-width:600px){.avatar{width:80px;height:80px}.wall{grid-template-columns:repeat(auto-fill,minmax(76px,1fr))}.lb button{width:42px;height:42px}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="cl" viewBox="0 0 64 64">
+<g transform="translate(32,31)"><g transform="rotate(45)">
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(90)"/>
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(180)"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(270)"/>
+</g><path d="M1 4 C 5 15 -3 22 5 31" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></g></symbol></svg>
+<div class="grain"></div>
+<nav class="topnav"><a href="../members.html">← 会员足迹</a><a href="../index.html">回顾首页</a><a href="../archive/list.html">全部存档</a></nav>
+<div class="wrap">
+  <div class="phead"><img class="avatar" src="../avatars/Nancy.jpg" alt="Nancy">
+    <div class="pid">
+      <h1 class="pname">Nancy</h1>
+      <div class="ptag">从CC1一路稳步走来的&quot;薇薇公主&quot;，把头马当作克服恐惧、与人真诚分享世界的舞台。</div>
+      <div class="pbadges"><span class="pb">会员</span><span class="pb">活跃 2015–2016</span><span class="pb">出现 7 次 · 7 篇</span><span class="pb gold">3 场演讲</span></div>
+    </div>
+  </div>
+  <div class="sec bio"><p>Nancy 是北航头马一位踏实而有亲和力的会员。被同伴形容为&quot;薇薇公主 Vivi&quot;，她有着东北女孩的快乐与率真，也有着金牛座的耐心和踏实。&quot;读过万卷书，行过万里路&quot;，她总是带着自己世界里的故事，等人倾听——这正是她在头马舞台上最动人的模样。</p><p>她的成长轨迹清晰而扎实。2015 年春天，她以英文选手的身份站上了北航头马春季演讲比赛的赛场；紧接着在 91 次会议完成 CC1《My trip in the Qingming festival》，分享清明假期的旅程，正式开启破冰之旅。此后她几乎一气呵成：CC2《The Intouchables》借电影《触不可及》讲述两个迥然不同的人之间的故事，CC3《Step Over Fear》则把&quot;恐惧是一间屋子，唯有走出去才能见到太阳&quot;讲得真切动人——克服恐惧、走出舒适区，是贯穿她演讲的内核。</p><p>随着实力增长，她在 2015 年秋季比赛中再次披挂上阵，成为英文组选手。在与 Athena 女神俱乐部的中文联合例会上，她也活跃于即兴环节，与 Jill 同台演绎&quot;甄嬛传&quot;式的情景对手戏。直到 2016 年的 140 次会议，她仍出现在即兴情景剧中扮演&quot;女儿国国王&quot;，可见她对俱乐部的长期参与与热情。</p><p>总体而言，Nancy 是那种用稳定与真诚一步步成长的头马人：从破冰到接连完成 CC 项目，再到两度征战比赛舞台，她始终把头马当作挑战自我、与人分享的地方。</p></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 闯关之路 · Competent Communication</h3><div class="cc"><div class="ccnode done" title="The Ice Breaker · 介绍自己，体会基本演讲结构，建立开口的自信"><span class=chk>✓</span><div class="n">CC1</div><div class="t">破冰</div></div><div class="ccnode done" title="Organize Your Speech · 用清晰的开头、主体与结尾来组织内容"><span class=chk>✓</span><div class="n">CC2</div><div class="t">组织你的演讲</div></div><div class="ccnode done" title="Get to the Point · 确立明确的演讲目的，并始终紧扣主题"><span class=chk>✓</span><div class="n">CC3</div><div class="t">明确目标</div></div><div class="ccnode " title="How to Say It · 精准的遣词、语法与修辞，让语言更有感染力"><div class="n">CC4</div><div class="t">怎么说</div></div><div class="ccnode " title="Your Body Speaks · 用姿态、手势、表情与走位增强表达"><div class="n">CC5</div><div class="t">肢体在说话</div></div><div class="ccnode " title="Vocal Variety · 用音调、音量与节奏的变化打动听众"><div class="n">CC6</div><div class="t">声音的变化</div></div><div class="ccnode " title="Research Your Topic · 用扎实的资料与论据支撑观点"><div class="n">CC7</div><div class="t">研究你的主题</div></div><div class="ccnode " title="Get Comfortable with Visual Aids · 恰当地使用视觉辅助，提升演讲效果"><div class="n">CC8</div><div class="t">善用视觉辅助</div></div><div class="ccnode " title="Persuade with Power · 用逻辑与情感有力地说服听众"><div class="n">CC9</div><div class="t">以理服人</div></div><div class="ccnode " title="Inspire Your Audience · 以真诚与力量鼓舞、激励听众"><div class="n">CC10</div><div class="t">激励听众</div></div></div><div class="ccmeta">已完成 3/10 个 CC 备稿项目（依据存档推送，可能不全）。CC 是 Toastmasters 经典的十级演讲进阶手册。</div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 做过的演讲 · 3 场</h3><div class="spk"><div class="sh"><span class="proj">CC1</span><span class="stt">My trip in the Qingming festival</span><span class="sd">2015-04-10 · 第91次</span></div><div class="ss">分享清明三天小长假里一段难忘的旅行经历，作为破冰演讲登场。</div></div><div class="spk"><div class="sh"><span class="proj">CC2</span><span class="stt">The Intouchables</span><span class="sd">2015-05-22 · 第96次</span></div><div class="ss">借电影《触不可及》讲述一位残障富翁与年轻看护之间两个迥异灵魂的故事。</div></div><div class="spk"><div class="sh"><span class="proj">CC3</span><span class="stt">Step Over Fear</span><span class="sd">2015-07-10 · 第103次</span></div><div class="ss">把恐惧比作一间屋子，唯有走出去才能见到阳光，鼓励大家跨越恐惧、抓住机会。</div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 担任过的职责</h3><div class="chips"><span class="rolechip"><b>备稿演讲者 Speaker</b><i>×3</i></span><span class="rolechip"><b>演讲比赛选手 Contestant</b><i>×2</i></span><span class="rolechip"><b>即兴演讲者 Table Topic Speaker</b><i>×2</i></span></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 里程碑</h3><ul class="ms"><li><span class="md">2015-03-13</span> <span class="mt">首次登上比赛舞台</span><div class="mn">在北航头马 2015 春季演讲比赛中作为英文组选手亮相。</div></li><li><span class="md">2015-04-10</span> <span class="mt">完成破冰演讲 CC1</span><div class="mn">在 91 次会议带来《My trip in the Qingming festival》，正式开启 CC 之旅。</div></li><li><span class="md">2015-08-14</span> <span class="mt">再战秋季比赛</span><div class="mn">作为英文组选手参加 2015 秋季比赛，被昵称为&#x27;薇薇公主 Vivi&#x27;。</div></li><li><span class="md">2016-06-05</span> <span class="mt">持续活跃于俱乐部</span><div class="mn">在 140 次会议的情景剧即兴中扮演女儿国国王，长期参与俱乐部活动。</div></li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 为俱乐部做的事</h3><ul class="contrib"><li>接连完成 CC1、CC2、CC3 备稿演讲，以稳定的成长为新会员树立榜样</li><li>两度代表俱乐部参加春季与秋季英文演讲比赛</li><li>积极参与即兴演讲与情景剧，为联合例会和中文之夜贡献活力</li><li>作为可靠的伙伴长期参与例会，从 2015 年延续到 2016 年</li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 头马里的人</h3><div class="rels"><div class="relbox"><div class="rt">同台搭档</div><a class="nm" href="../member/Jill.html">Jill</a><span class="nm">Pedtro</span></div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 照片墙 · 时间线</h3><div class="wnote">共 26 帧，其中 18 帧已用人脸识别确认是本人（带 ✓）。</div><div class="wall"><figure class="pm" data-full="../img/fbbbb13e3b3589a1.jpg" data-cap="2014-12-18 · 第81次 · The First Time @BeihangTMC 81st Meetin" data-href="../archive/0483.html"><img loading="lazy" src="../pm/fbbbb13e3b3589a1.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/897ddda097fcc49f.jpg" data-cap="2014-12-18 · 第81次 · The First Time @BeihangTMC 81st Meetin" data-href="../archive/0483.html"><img loading="lazy" src="../pm/897ddda097fcc49f.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/e166c82d18d64434.jpg" data-cap="2014-12-21 · 第82次 · My 2014 @BeihangTMC 82nd Meeting Minut" data-href="../archive/0481.html"><img loading="lazy" src="../pm/e166c82d18d64434.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/a126b6b6da2cc87c.jpg" data-cap="2015-01-30 · 第86次 · Winter Holiday @BeihangTMC 86th Meetin" data-href="../archive/0470.html"><img loading="lazy" src="../pm/a126b6b6da2cc87c.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/98da99d9ac1101b6.jpg" data-cap="2015-03-19 · 第86次 · Spring Contest @BeihangTMC 86th Meetin" data-href="../archive/0467.html"><img loading="lazy" src="../pm/98da99d9ac1101b6.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/31b6d9c516eceba1.jpg" data-cap="2015-03-19 · 第86次 · Spring Contest @BeihangTMC 86th Meetin" data-href="../archive/0467.html"><img loading="lazy" src="../pm/31b6d9c516eceba1.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/98508f770ae989c3.jpg" data-cap="2015-03-19 · 第86次 · Spring Contest @BeihangTMC 86th Meetin" data-href="../archive/0467.html"><img loading="lazy" src="../pm/98508f770ae989c3.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/2ba64a68199eb191.jpg" data-cap="2015-04-14 · 第91次 · Your Moon &amp; My Heart@BeihangTMC 91st M" data-href="../archive/0459.html"><img loading="lazy" src="../pm/2ba64a68199eb191.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/19bdd872246be5ba.jpg" data-cap="2015-05-27 · 第96次 · Road Rage@BeihangTMC 96th Meeting Minu" data-href="../archive/0444.html"><img loading="lazy" src="../pm/19bdd872246be5ba.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/309720ea1cda21ea.jpg" data-cap="2015-07-01 · 第101次 · Interpersonal Closeness @BeihangTMC 10" data-href="../archive/0419.html"><img loading="lazy" src="../pm/309720ea1cda21ea.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/5c3c959b4e3ffca6.jpg" data-cap="2015-07-14 · 第103次 · 103rd meeting minutes of BeihangTMC" data-href="../archive/0411.html"><img loading="lazy" src="../pm/5c3c959b4e3ffca6.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/b83d245fe0b5adc2.jpg" data-cap="2015-07-14 · 第103次 · 103rd meeting minutes of BeihangTMC" data-href="../archive/0411.html"><img loading="lazy" src="../pm/b83d245fe0b5adc2.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/92ce62c8668cb288.jpg" data-cap="2015-08-13 · 第106次 · 2015 Autumn Contest @ BeihangTMC 106th" data-href="../archive/0396.html"><img loading="lazy" src="../pm/92ce62c8668cb288.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/b1084ec6b6d4a642.jpg" data-cap="2015-08-19 · 第106次 · 106th meeting minutes of BeihangTMC" data-href="../archive/0395.html"><img loading="lazy" src="../pm/b1084ec6b6d4a642.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/3072ceeda6091e98.jpg" data-cap="2015-08-19 · 第106次 · 106th meeting minutes of BeihangTMC" data-href="../archive/0395.html"><img loading="lazy" src="../pm/3072ceeda6091e98.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/460058f22803e2ad.jpg" data-cap="2015-09-04 · 第108次 · 108th meeting minutes of Beihang TMC" data-href="../archive/0385.html"><img loading="lazy" src="../pm/460058f22803e2ad.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/8c91c2314d758ccf.jpg" data-cap="2015-10-16 · 北航Toastmasters国际英语演讲俱乐部招新啦" data-href="../archive/0362.html"><img loading="lazy" src="../pm/8c91c2314d758ccf.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/26ba9d514c3147da.jpg" data-cap="2017-11-13 · 北航Toastmasters国际英语演讲俱乐部，期待你的加入！" data-href="../archive/0094.html"><img loading="lazy" src="../pm/26ba9d514c3147da.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/21cd7ed2ab6af3e9.jpg" data-cap="2015-04-10 · 第91次 · Your Moon &amp; My Heart @BeihangTMC 91st " data-href="../archive/0460.html"><img loading="lazy" src="../pm/21cd7ed2ab6af3e9.jpg" alt=""></figure><figure class="pm" data-full="../img/38ad61150574da7c.jpg" data-cap="2015-05-20 · 第96次 · Road Rage@BeihangTMC 96th Meeting" data-href="../archive/0446.html"><img loading="lazy" src="../pm/38ad61150574da7c.jpg" alt=""></figure><figure class="pm" data-full="../img/a43c1f1521bb8294.jpg" data-cap="2015-08-13 · 第106次 · 2015 Autumn Contest @ BeihangTMC 106th" data-href="../archive/0396.html"><img loading="lazy" src="../pm/a43c1f1521bb8294.jpg" alt=""></figure><figure class="pm" data-full="../img/28a5ae3355b0c8ae.jpg" data-cap="2015-08-13 · 第106次 · 2015 Autumn Contest @ BeihangTMC 106th" data-href="../archive/0396.html"><img loading="lazy" src="../pm/28a5ae3355b0c8ae.jpg" alt=""></figure><figure class="pm" data-full="../img/4d083ad550ee8afd.jpg" data-cap="2015-08-13 · 第106次 · 2015 Autumn Contest @ BeihangTMC 106th" data-href="../archive/0396.html"><img loading="lazy" src="../pm/4d083ad550ee8afd.jpg" alt=""></figure><figure class="pm" data-full="../img/d8f2d4f2d3355570.jpg" data-cap="2015-10-26 · 第115次 · 115th meeting minutes of Beihang TMC" data-href="../archive/0355.html"><img loading="lazy" src="../pm/d8f2d4f2d3355570.jpg" alt=""></figure><figure class="pm" data-full="../img/891c2a68f49ebe6d.png" data-cap="2016-06-05 · 第140次 · Jack and Rose@minutes of Beihang TMC 1" data-href="../archive/0244.html"><img loading="lazy" src="../pm/891c2a68f49ebe6d.jpg" alt=""></figure><figure class="pm" data-full="../img/1eb53d5acdc0cda9.png" data-cap="2016-06-05 · 第140次 · Jack and Rose@minutes of Beihang TMC 1" data-href="../archive/0244.html"><img loading="lazy" src="../pm/1eb53d5acdc0cda9.jpg" alt=""></figure></div></div><div class="pquote en"><span class="qm">“</span>Fear is a room, only when out of which, can we see the sun.<span class="qm">”</span></div>
+</div>
+<footer><svg class="clover" style="color:var(--clover)"><use href="#cl"/></svg> 北航 Toastmasters 会员档案 · 一入头马门，从此一家人</footer>
+<div class="lb" id="lb" aria-hidden="true"><button class="lb-close">×</button><button class="lb-prev">‹</button><img class="lb-img" alt=""><button class="lb-next">›</button><a class="lb-cap" href="#" target="_blank" rel="noopener"></a></div>
+<script>
+const figs=[...document.querySelectorAll('.pm[data-full]')];const lb=document.getElementById('lb'),lbi=lb.querySelector('.lb-img'),lbc=lb.querySelector('.lb-cap');let cur=-1;
+function show(i){cur=(i+figs.length)%figs.length;const f=figs[cur];lbi.src=f.dataset.full;lbc.innerHTML=f.dataset.cap+'　<b>查看原文 →</b>';lbc.href=f.dataset.href}
+function op(i){show(i);lb.classList.add('open');document.body.style.overflow='hidden'}function cl(){lb.classList.remove('open');document.body.style.overflow=''}
+figs.forEach((f,i)=>f.addEventListener('click',()=>op(i)));
+lb.querySelector('.lb-close').onclick=cl;lb.querySelector('.lb-prev').onclick=e=>{e.stopPropagation();show(cur-1)};lb.querySelector('.lb-next').onclick=e=>{e.stopPropagation();show(cur+1)};
+lb.addEventListener('click',e=>{if(e.target===lb)cl()});addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')cl();else if(e.key==='ArrowLeft')show(cur-1);else if(e.key==='ArrowRight')show(cur+1)});
+</script></body></html>

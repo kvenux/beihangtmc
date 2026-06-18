@@ -1,0 +1,114 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Amanda · 北航 Toastmasters 会员档案</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#e7dec7;--paper2:#f3eeda;--cream:#fbf7ec;--ink:#24301b;--soft:#444e36;--muted:#857e62;
+--clover:#4f7d44;--clover-deep:#33602e;--clover-bright:#74a85f;--gold:#bd8a38;--gold-deep:#996b1f;--line:#d1c5a4;--rule:#c4b690;
+--serif:"Noto Serif SC",Georgia,serif;--fr:"Fraunces",Georgia,serif;--hw:"Ma Shan Zheng",cursive;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.85;font-size:16px;
+background-image:radial-gradient(ellipse at 12% 0%,rgba(79,125,68,.10),transparent 55%),radial-gradient(ellipse at 92% 100%,rgba(189,138,56,.08),transparent 52%)}
+.grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:var(--clover-deep)}
+.clover{width:1em;height:1em;display:inline-block;vertical-align:-.12em;fill:currentColor}.clover.xs{width:.9em;height:.9em}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px 90px}
+.topnav{display:flex;gap:18px;padding:18px 22px;max-width:880px;margin:0 auto;font-size:14px}
+.topnav a{color:var(--clover-deep);text-decoration:none}.topnav a:hover{text-decoration:underline}
+/* header */
+.phead{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:14px 0 8px;border-bottom:1px solid var(--rule);margin-bottom:26px}
+.avatar{width:104px;height:104px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 26px -12px rgba(30,40,12,.5);flex:none;background:var(--cream)}
+.avatar.ph{display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:42px;color:var(--clover)}
+.pid{min-width:0}
+.pname{font-family:var(--serif);font-weight:900;font-size:clamp(30px,6vw,46px);line-height:1.05;margin:0}
+.pname .real{font-size:.5em;color:var(--gold-deep);font-weight:600;margin-left:.4em}
+.ptag{color:var(--soft);font-size:15px;margin:8px 0 10px;max-width:48em}
+.pbadges{display:flex;gap:8px;flex-wrap:wrap}
+.pb{font-size:12.5px;background:rgba(79,125,68,.12);color:var(--clover-deep);border:1px solid rgba(79,125,68,.28);border-radius:999px;padding:3px 11px}
+.pb.gold{background:rgba(189,138,56,.14);color:var(--gold-deep);border-color:rgba(189,138,56,.3)}
+/* sections */
+.sec{margin:30px 0}
+.sec h3{font-family:var(--serif);font-weight:700;font-size:21px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
+.sec h3 .clover{color:var(--gold)}
+.bio p{margin:0 0 1em;color:var(--soft);text-align:justify;font-size:16px}
+/* CC progression */
+.cc{display:flex;flex-wrap:wrap;gap:8px}
+.ccnode{flex:1 1 84px;min-width:84px;border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:var(--cream);text-align:center;position:relative}
+.ccnode.done{background:linear-gradient(180deg,#5b8a4e,#3f6b33);border-color:var(--clover-deep);color:#fff;box-shadow:0 8px 18px -10px rgba(51,96,46,.5)}
+.ccnode .n{font-family:var(--serif);font-weight:900;font-size:18px}
+.ccnode .t{font-size:10.5px;line-height:1.25;margin-top:2px;opacity:.92}
+.ccnode.done .chk{position:absolute;top:4px;right:6px;font-size:11px}
+.ccmeta{font-size:13px;color:var(--muted);margin-top:8px}
+/* speeches */
+.spk{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin-bottom:16px}
+.spk .sh{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.spk .proj{font-size:11.5px;font-weight:700;color:#fff;background:var(--clover);border-radius:5px;padding:1px 8px}
+.spk .stt{font-family:var(--serif);font-weight:700;font-size:16.5px;color:var(--ink)}
+.spk .sd{font-family:var(--fr);font-style:italic;color:var(--muted);font-size:12.5px}
+.spk .ss{color:var(--soft);font-size:14.5px;margin-top:3px}
+/* roles / chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.rolechip{font-size:13.5px;background:var(--cream);border:1px solid var(--line);border-radius:8px;padding:5px 12px;color:var(--soft)}
+.rolechip b{color:var(--clover-deep)}.rolechip i{font-style:normal;color:var(--gold-deep);font-weight:700;margin-left:3px}
+/* milestones */
+.ms{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule);margin-left:6px}
+.ms li{position:relative;padding:0 0 16px 22px}
+.ms li::before{content:"";position:absolute;left:-7px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--clover);border:2px solid var(--paper)}
+.ms .md{font-family:var(--fr);font-style:italic;color:var(--gold-deep);font-size:13px}
+.ms .mt{font-weight:700;color:var(--ink);font-size:15px}
+.ms .mn{color:var(--soft);font-size:13.5px}
+.contrib{margin:0;padding-left:20px;color:var(--soft)}.contrib li{margin-bottom:6px;font-size:15px}
+/* relationships */
+.rels{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.relbox{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.relbox .rt{font-size:13px;color:var(--muted);margin-bottom:8px}
+.nm{display:inline-block;font-size:13.5px;background:rgba(79,125,68,.1);border:1px solid var(--line);border-radius:999px;padding:3px 11px;margin:0 5px 5px 0;color:var(--ink);text-decoration:none}
+a.nm:hover{background:var(--clover);color:#fff;border-color:var(--clover)}
+/* photo wall */
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:7px}
+.pm{position:relative;margin:0;aspect-ratio:1;overflow:hidden;border-radius:6px;cursor:pointer;border:2px solid #fff;box-shadow:0 6px 14px -8px rgba(30,40,12,.5);transition:transform .25s}
+.pm img{width:100%;height:100%;object-fit:cover;display:block;filter:sepia(.1) saturate(.97);transition:.3s}
+.pm:hover{transform:scale(1.07);z-index:3}.pm:hover img{filter:none}
+.pm .vchk{position:absolute;top:3px;right:3px;width:17px;height:17px;border-radius:50%;background:var(--clover);color:#fff;font-size:10px;line-height:17px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.wnote{font-size:12.5px;color:var(--muted);margin-bottom:10px;font-family:var(--fr);font-style:italic}
+/* quote */
+.pquote{font-family:var(--serif);font-weight:600;font-size:clamp(18px,2.6vw,24px);line-height:1.6;color:var(--clover-deep);text-align:center;
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:26px 10px;margin:34px 0}
+.pquote.en{font-family:var(--fr);font-style:italic;font-weight:400}
+.pquote .qm{color:var(--gold);font-size:1.5em;font-family:var(--serif)}
+footer{text-align:center;padding:30px 22px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule);max-width:880px;margin:30px auto 0}
+.lb{position:fixed;inset:0;z-index:10000;background:rgba(20,26,12,.93);display:none;align-items:center;justify-content:center;padding:5vh 2vw;backdrop-filter:blur(5px)}
+.lb.open{display:flex}.lb-img{max-width:92vw;max-height:80vh;object-fit:contain;border:7px solid #fbf7ec;border-radius:2px;background:#fbf7ec}
+.lb-cap{position:absolute;bottom:2.4vh;left:0;right:0;text-align:center;color:#e7dec7;font-size:14px;font-family:var(--fr);font-style:italic;text-decoration:none;padding:0 16px}.lb-cap b{color:var(--clover-bright);font-style:normal}
+.lb button{position:absolute;background:rgba(251,247,236,.12);border:1px solid rgba(251,247,236,.32);color:#fbf7ec;cursor:pointer;border-radius:50%;width:48px;height:48px;font-size:25px}
+.lb-close{top:3vh;right:3vw}.lb-prev{left:2.5vw;top:50%;transform:translateY(-50%)}.lb-next{right:2.5vw;top:50%;transform:translateY(-50%)}
+@media(max-width:600px){.avatar{width:80px;height:80px}.wall{grid-template-columns:repeat(auto-fill,minmax(76px,1fr))}.lb button{width:42px;height:42px}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="cl" viewBox="0 0 64 64">
+<g transform="translate(32,31)"><g transform="rotate(45)">
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(90)"/>
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(180)"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(270)"/>
+</g><path d="M1 4 C 5 15 -3 22 5 31" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></g></symbol></svg>
+<div class="grain"></div>
+<nav class="topnav"><a href="../members.html">← 会员足迹</a><a href="../index.html">回顾首页</a><a href="../archive/list.html">全部存档</a></nav>
+<div class="wrap">
+  <div class="phead"><img class="avatar" src="../avatars/Amanda.jpg" alt="Amanda">
+    <div class="pid">
+      <h1 class="pname">Amanda</h1>
+      <div class="ptag">一位以点评与主持见长的资深会员，用稳健的台风陪伴俱乐部走过一个个夜晚，最后在毕业季优雅告别。</div>
+      <div class="pbadges"><span class="pb">会员</span><span class="pb">活跃 2014–2014</span><span class="pb">出现 7 次 · 7 篇</span></div>
+    </div>
+  </div>
+  <div class="sec bio"><p>Amanda 是北航 Toastmasters 在 2014 年上半年的活跃骨干。从第 50 次到第 65 次例会的记录里，几乎每一次都能看到她的名字，而且大多出现在需要担当与判断的位置：总点评官（General Evaluator）、即兴点评官（Table Topic Evaluator）、以及会议主持人（Toastmaster）。她不是那种站在聚光灯下做长篇备稿演讲的人，而是那个把控全场节奏、为别人的成长给出反馈的人。</p><p>在俱乐部 2014 年 4 月的成员成长榜上，Amanda 以 4 次担任角色（TM、两次 GE、TTE）位列第四，是当时承担职责最多的成员之一，仅次于 Peter、Deron 和 Jason。第 53 次例会上她作为主持人带领大家探讨&quot;文化差异&quot;这一主题，从思维方式、传统、饮食到价值观，引导成员在差异中寻找共通；在&quot;We Media&quot;&quot;MONEY&quot;&quot;新学期新开始&quot;等多次例会中，她则坐在总点评的位置上，为整场会议把脉。</p><p>2014 年 6 月，毕业季来临。第 64 次例会成了她和 Jocelyn、Jason、Shawn 四人的告别会——俱乐部没有安排备稿演讲，而是用游戏、回顾与特别奖项为他们送别。正如俱乐部所说，他们在北航 Toastmasters 的经历让他们&quot;变得更自信、更有能力&quot;，而这场告别意味着的是&quot;see you later&quot;。就在告别的同一周，她仍以即兴点评官的身份出现在第 65 次例会的预告里，站好了最后一班岗。</p></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 担任过的职责</h3><div class="chips"><span class="rolechip"><b>总点评官 General Evaluator</b><i>×3</i></span><span class="rolechip"><b>即兴点评官 Table Topic Evaluator</b><i>×2</i></span><span class="rolechip"><b>Toastmaster 会议主持人</b></span></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 里程碑</h3><ul class="ms"><li><span class="md">2014-03-06</span> <span class="mt">活跃于俱乐部例会</span><div class="mn">第50次例会担任总点评官，是其在记录中最早出现的身影。</div></li><li><span class="md">2014-03-27</span> <span class="mt">主持&#x27;文化差异&#x27;例会</span><div class="mn">第53次例会担任Toastmaster主持人，独当一面把控全场。</div></li><li><span class="md">2014-04-08</span> <span class="mt">登上成员成长榜第4名</span><div class="mn">以4次任职(TM、GE×2、TTE)位列俱乐部成员承担角色排行榜第四。</div></li><li><span class="md">2014-06-20</span> <span class="mt">毕业告别会</span><div class="mn">第64次例会与Jocelyn、Jason、Shawn一同接受俱乐部的特别送别与回顾奖项。</div></li><li><span class="md">2014-06-27</span> <span class="mt">站好最后一班岗</span><div class="mn">告别同周仍在第65次例会担任即兴点评官。</div></li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 为俱乐部做的事</h3><ul class="contrib"><li>多次担任总点评官(GE)，为整场例会的运行与成员表现给出系统反馈</li><li>担任即兴环节点评官(TTE)，帮助成员提升即兴表达能力</li><li>主持第53次&#x27;文化差异&#x27;例会，承担Toastmaster的全场组织职责</li><li>作为承担角色最多的成员之一(成长榜第4名)，长期为俱乐部例会的稳定运转提供支撑</li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 头马里的人</h3><div class="rels"><div class="relbox"><div class="rt">TA 点评过</div><a class="nm" href="../member/Keven.html">Keven</a><a class="nm" href="../member/Monk.html">Monk</a></div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 照片墙 · 时间线</h3><div class="wnote">共 6 帧，其中 4 帧已用人脸识别确认是本人（带 ✓）。</div><div class="wall"><figure class="pm" data-full="../img/664cbce2353c1e5a.png" data-cap="2015-01-19 · 第85次 · Choice @BeihangTMC 85th Meeting Minute" data-href="../archive/0472.html"><img loading="lazy" src="../pm/664cbce2353c1e5a.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/0bc94a85e5b37bbd.png" data-cap="2015-01-19 · 第85次 · Choice @BeihangTMC 85th Meeting Minute" data-href="../archive/0472.html"><img loading="lazy" src="../pm/0bc94a85e5b37bbd.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/9b6ba24cf8703050.jpg" data-cap="2015-06-17 · 第100次 · 100th Meeting Minutes of BeihangTMC" data-href="../archive/0432.html"><img loading="lazy" src="../pm/9b6ba24cf8703050.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/a87338ba9d62cc27.jpg" data-cap="2015-06-17 · 第100次 · 100th Meeting Minutes of BeihangTMC" data-href="../archive/0432.html"><img loading="lazy" src="../pm/a87338ba9d62cc27.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/d8286b0aba1bed3e.jpg" data-cap="2014-04-04 · 第54次 · 54th meeting -We Media" data-href="../archive/0533.html"><img loading="lazy" src="../pm/d8286b0aba1bed3e.jpg" alt=""></figure><figure class="pm" data-full="../img/606ef06928f7dee1.jpg" data-cap="2014-06-19 · 第64次 · Welcome to Beihang Toastmasters Club 6" data-href="../archive/0521.html"><img loading="lazy" src="../pm/606ef06928f7dee1.jpg" alt=""></figure></div></div>
+</div>
+<footer><svg class="clover" style="color:var(--clover)"><use href="#cl"/></svg> 北航 Toastmasters 会员档案 · 一入头马门，从此一家人</footer>
+<div class="lb" id="lb" aria-hidden="true"><button class="lb-close">×</button><button class="lb-prev">‹</button><img class="lb-img" alt=""><button class="lb-next">›</button><a class="lb-cap" href="#" target="_blank" rel="noopener"></a></div>
+<script>
+const figs=[...document.querySelectorAll('.pm[data-full]')];const lb=document.getElementById('lb'),lbi=lb.querySelector('.lb-img'),lbc=lb.querySelector('.lb-cap');let cur=-1;
+function show(i){cur=(i+figs.length)%figs.length;const f=figs[cur];lbi.src=f.dataset.full;lbc.innerHTML=f.dataset.cap+'　<b>查看原文 →</b>';lbc.href=f.dataset.href}
+function op(i){show(i);lb.classList.add('open');document.body.style.overflow='hidden'}function cl(){lb.classList.remove('open');document.body.style.overflow=''}
+figs.forEach((f,i)=>f.addEventListener('click',()=>op(i)));
+lb.querySelector('.lb-close').onclick=cl;lb.querySelector('.lb-prev').onclick=e=>{e.stopPropagation();show(cur-1)};lb.querySelector('.lb-next').onclick=e=>{e.stopPropagation();show(cur+1)};
+lb.addEventListener('click',e=>{if(e.target===lb)cl()});addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')cl();else if(e.key==='ArrowLeft')show(cur-1);else if(e.key==='ArrowRight')show(cur+1)});
+</script></body></html>

@@ -1,0 +1,114 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Rocky · 北航 Toastmasters 会员档案</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#e7dec7;--paper2:#f3eeda;--cream:#fbf7ec;--ink:#24301b;--soft:#444e36;--muted:#857e62;
+--clover:#4f7d44;--clover-deep:#33602e;--clover-bright:#74a85f;--gold:#bd8a38;--gold-deep:#996b1f;--line:#d1c5a4;--rule:#c4b690;
+--serif:"Noto Serif SC",Georgia,serif;--fr:"Fraunces",Georgia,serif;--hw:"Ma Shan Zheng",cursive;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.85;font-size:16px;
+background-image:radial-gradient(ellipse at 12% 0%,rgba(79,125,68,.10),transparent 55%),radial-gradient(ellipse at 92% 100%,rgba(189,138,56,.08),transparent 52%)}
+.grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:var(--clover-deep)}
+.clover{width:1em;height:1em;display:inline-block;vertical-align:-.12em;fill:currentColor}.clover.xs{width:.9em;height:.9em}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px 90px}
+.topnav{display:flex;gap:18px;padding:18px 22px;max-width:880px;margin:0 auto;font-size:14px}
+.topnav a{color:var(--clover-deep);text-decoration:none}.topnav a:hover{text-decoration:underline}
+/* header */
+.phead{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:14px 0 8px;border-bottom:1px solid var(--rule);margin-bottom:26px}
+.avatar{width:104px;height:104px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 26px -12px rgba(30,40,12,.5);flex:none;background:var(--cream)}
+.avatar.ph{display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:42px;color:var(--clover)}
+.pid{min-width:0}
+.pname{font-family:var(--serif);font-weight:900;font-size:clamp(30px,6vw,46px);line-height:1.05;margin:0}
+.pname .real{font-size:.5em;color:var(--gold-deep);font-weight:600;margin-left:.4em}
+.ptag{color:var(--soft);font-size:15px;margin:8px 0 10px;max-width:48em}
+.pbadges{display:flex;gap:8px;flex-wrap:wrap}
+.pb{font-size:12.5px;background:rgba(79,125,68,.12);color:var(--clover-deep);border:1px solid rgba(79,125,68,.28);border-radius:999px;padding:3px 11px}
+.pb.gold{background:rgba(189,138,56,.14);color:var(--gold-deep);border-color:rgba(189,138,56,.3)}
+/* sections */
+.sec{margin:30px 0}
+.sec h3{font-family:var(--serif);font-weight:700;font-size:21px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
+.sec h3 .clover{color:var(--gold)}
+.bio p{margin:0 0 1em;color:var(--soft);text-align:justify;font-size:16px}
+/* CC progression */
+.cc{display:flex;flex-wrap:wrap;gap:8px}
+.ccnode{flex:1 1 84px;min-width:84px;border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:var(--cream);text-align:center;position:relative}
+.ccnode.done{background:linear-gradient(180deg,#5b8a4e,#3f6b33);border-color:var(--clover-deep);color:#fff;box-shadow:0 8px 18px -10px rgba(51,96,46,.5)}
+.ccnode .n{font-family:var(--serif);font-weight:900;font-size:18px}
+.ccnode .t{font-size:10.5px;line-height:1.25;margin-top:2px;opacity:.92}
+.ccnode.done .chk{position:absolute;top:4px;right:6px;font-size:11px}
+.ccmeta{font-size:13px;color:var(--muted);margin-top:8px}
+/* speeches */
+.spk{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin-bottom:16px}
+.spk .sh{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.spk .proj{font-size:11.5px;font-weight:700;color:#fff;background:var(--clover);border-radius:5px;padding:1px 8px}
+.spk .stt{font-family:var(--serif);font-weight:700;font-size:16.5px;color:var(--ink)}
+.spk .sd{font-family:var(--fr);font-style:italic;color:var(--muted);font-size:12.5px}
+.spk .ss{color:var(--soft);font-size:14.5px;margin-top:3px}
+/* roles / chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.rolechip{font-size:13.5px;background:var(--cream);border:1px solid var(--line);border-radius:8px;padding:5px 12px;color:var(--soft)}
+.rolechip b{color:var(--clover-deep)}.rolechip i{font-style:normal;color:var(--gold-deep);font-weight:700;margin-left:3px}
+/* milestones */
+.ms{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule);margin-left:6px}
+.ms li{position:relative;padding:0 0 16px 22px}
+.ms li::before{content:"";position:absolute;left:-7px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--clover);border:2px solid var(--paper)}
+.ms .md{font-family:var(--fr);font-style:italic;color:var(--gold-deep);font-size:13px}
+.ms .mt{font-weight:700;color:var(--ink);font-size:15px}
+.ms .mn{color:var(--soft);font-size:13.5px}
+.contrib{margin:0;padding-left:20px;color:var(--soft)}.contrib li{margin-bottom:6px;font-size:15px}
+/* relationships */
+.rels{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.relbox{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.relbox .rt{font-size:13px;color:var(--muted);margin-bottom:8px}
+.nm{display:inline-block;font-size:13.5px;background:rgba(79,125,68,.1);border:1px solid var(--line);border-radius:999px;padding:3px 11px;margin:0 5px 5px 0;color:var(--ink);text-decoration:none}
+a.nm:hover{background:var(--clover);color:#fff;border-color:var(--clover)}
+/* photo wall */
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:7px}
+.pm{position:relative;margin:0;aspect-ratio:1;overflow:hidden;border-radius:6px;cursor:pointer;border:2px solid #fff;box-shadow:0 6px 14px -8px rgba(30,40,12,.5);transition:transform .25s}
+.pm img{width:100%;height:100%;object-fit:cover;display:block;filter:sepia(.1) saturate(.97);transition:.3s}
+.pm:hover{transform:scale(1.07);z-index:3}.pm:hover img{filter:none}
+.pm .vchk{position:absolute;top:3px;right:3px;width:17px;height:17px;border-radius:50%;background:var(--clover);color:#fff;font-size:10px;line-height:17px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.wnote{font-size:12.5px;color:var(--muted);margin-bottom:10px;font-family:var(--fr);font-style:italic}
+/* quote */
+.pquote{font-family:var(--serif);font-weight:600;font-size:clamp(18px,2.6vw,24px);line-height:1.6;color:var(--clover-deep);text-align:center;
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:26px 10px;margin:34px 0}
+.pquote.en{font-family:var(--fr);font-style:italic;font-weight:400}
+.pquote .qm{color:var(--gold);font-size:1.5em;font-family:var(--serif)}
+footer{text-align:center;padding:30px 22px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule);max-width:880px;margin:30px auto 0}
+.lb{position:fixed;inset:0;z-index:10000;background:rgba(20,26,12,.93);display:none;align-items:center;justify-content:center;padding:5vh 2vw;backdrop-filter:blur(5px)}
+.lb.open{display:flex}.lb-img{max-width:92vw;max-height:80vh;object-fit:contain;border:7px solid #fbf7ec;border-radius:2px;background:#fbf7ec}
+.lb-cap{position:absolute;bottom:2.4vh;left:0;right:0;text-align:center;color:#e7dec7;font-size:14px;font-family:var(--fr);font-style:italic;text-decoration:none;padding:0 16px}.lb-cap b{color:var(--clover-bright);font-style:normal}
+.lb button{position:absolute;background:rgba(251,247,236,.12);border:1px solid rgba(251,247,236,.32);color:#fbf7ec;cursor:pointer;border-radius:50%;width:48px;height:48px;font-size:25px}
+.lb-close{top:3vh;right:3vw}.lb-prev{left:2.5vw;top:50%;transform:translateY(-50%)}.lb-next{right:2.5vw;top:50%;transform:translateY(-50%)}
+@media(max-width:600px){.avatar{width:80px;height:80px}.wall{grid-template-columns:repeat(auto-fill,minmax(76px,1fr))}.lb button{width:42px;height:42px}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="cl" viewBox="0 0 64 64">
+<g transform="translate(32,31)"><g transform="rotate(45)">
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(90)"/>
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(180)"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(270)"/>
+</g><path d="M1 4 C 5 15 -3 22 5 31" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></g></symbol></svg>
+<div class="grain"></div>
+<nav class="topnav"><a href="../members.html">← 会员足迹</a><a href="../index.html">回顾首页</a><a href="../archive/list.html">全部存档</a></nav>
+<div class="wrap">
+  <div class="phead"><div class="avatar ph">R</div>
+    <div class="pid">
+      <h1 class="pname">Rocky<span class="real">李彦明</span></h1>
+      <div class="ptag">从北科跨校而来的高调阳光大男孩，会场上最活跃的主持人与即兴玩家，用体育与母校的故事一步步走完破冰到成长之路。</div>
+      <div class="pbadges"><span class="pb">会员</span><span class="pb">活跃 2015–2017</span><span class="pb">出现 20 次 · 20 篇</span><span class="pb gold">4 场演讲</span></div>
+    </div>
+  </div>
+  <div class="sec bio"><p>Rocky，本名李彦明，是北京科技大学的高材生，拥有经济学和医学双学位。2015年底，他作为一名跨校的新面孔走进北航Toastmasters的会场，在第121次会议的即兴环节上场，用&quot;从零开始，下一步可能是0.00001，也可能是-0.00001，0到1是一条蜿蜒曲折的路程&quot;这样质朴的比喻打动了大家。从此，每周五晚的舞台上多了一个高调、张扬、阳光的身影。</p><p>2016年6月，他终于鼓起勇气完成破冰演讲CC1《Welcome to the world of E-sports》，把自己熟悉的电竞与体育世界介绍给俱乐部。此后他一路坚持：CC2《Happy birthday to my school》是写给母校北科生日的深情告白；CC3《What can football bring to us》谈足球带给人的悲喜；CC4《Why am I afraid to go home》则坦露了少年心事。他的题目总带着体育、青春与真情，像他本人一样热烈直接。</p><p>比起备稿，Rocky更是会场上不知疲倦的&quot;气氛担当&quot;。他一次次担任Toastmaster主持人和即兴主持TTM，精心设计提问（曾为一场即兴准备了7个问题，5个单问、2个双问），也乐于在情景剧里和Qiqi、Huan搭档插科打诨，制造满场欢笑。在毕业季的即兴分享中，他坦言曾因高调张扬的性格与室友产生矛盾，后来慢慢懂得了尊重他人品行、家庭与习惯的重要——这份真诚的自省，正是他在头马里成长的注脚。</p></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 闯关之路 · Competent Communication</h3><div class="cc"><div class="ccnode done" title="The Ice Breaker · 介绍自己，体会基本演讲结构，建立开口的自信"><span class=chk>✓</span><div class="n">CC1</div><div class="t">破冰</div></div><div class="ccnode done" title="Organize Your Speech · 用清晰的开头、主体与结尾来组织内容"><span class=chk>✓</span><div class="n">CC2</div><div class="t">组织你的演讲</div></div><div class="ccnode done" title="Get to the Point · 确立明确的演讲目的，并始终紧扣主题"><span class=chk>✓</span><div class="n">CC3</div><div class="t">明确目标</div></div><div class="ccnode done" title="How to Say It · 精准的遣词、语法与修辞，让语言更有感染力"><span class=chk>✓</span><div class="n">CC4</div><div class="t">怎么说</div></div><div class="ccnode " title="Your Body Speaks · 用姿态、手势、表情与走位增强表达"><div class="n">CC5</div><div class="t">肢体在说话</div></div><div class="ccnode " title="Vocal Variety · 用音调、音量与节奏的变化打动听众"><div class="n">CC6</div><div class="t">声音的变化</div></div><div class="ccnode " title="Research Your Topic · 用扎实的资料与论据支撑观点"><div class="n">CC7</div><div class="t">研究你的主题</div></div><div class="ccnode " title="Get Comfortable with Visual Aids · 恰当地使用视觉辅助，提升演讲效果"><div class="n">CC8</div><div class="t">善用视觉辅助</div></div><div class="ccnode " title="Persuade with Power · 用逻辑与情感有力地说服听众"><div class="n">CC9</div><div class="t">以理服人</div></div><div class="ccnode " title="Inspire Your Audience · 以真诚与力量鼓舞、激励听众"><div class="n">CC10</div><div class="t">激励听众</div></div></div><div class="ccmeta">已完成 4/10 个 CC 备稿项目（依据存档推送，可能不全）。CC 是 Toastmasters 经典的十级演讲进阶手册。</div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 做过的演讲 · 4 场</h3><div class="spk"><div class="sh"><span class="proj">CC1</span><span class="stt">Welcome to the world of E-sports</span><span class="sd">2016-06-02 · 第140次</span></div><div class="ss">破冰演讲，向大家介绍电竞这项运动，也聊到体育与电玩的世界。</div></div><div class="spk"><div class="sh"><span class="proj">CC2</span><span class="stt">Happy birthday to my school</span><span class="sd">2017-04-21 · 第171次</span></div><div class="ss">借母校北京科技大学校庆，像向爱人表白一样表达对母校的祝福与感激。</div></div><div class="spk"><div class="sh"><span class="proj">CC3</span><span class="stt">What can football bring to us</span><span class="sd">2017-09-15 · 第180次</span></div><div class="ss">谈足球带给人的疯狂与悲喜，从地狱到天堂的情绪起落，足球对人生的意义。</div></div><div class="spk"><div class="sh"><span class="proj">CC4</span><span class="stt">Why am I afraid to go home</span><span class="sd">2017-10-13 · 第182次</span></div><div class="ss">作为俱乐部里最勇敢的男孩，却坦言害怕回家，将答案留到台上揭晓。</div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 担任过的职责</h3><div class="chips"><span class="rolechip"><b>Toastmaster主持人</b><i>×6</i></span><span class="rolechip"><b>即兴主持TTM</b><i>×2</i></span><span class="rolechip"><b>即兴演讲者</b><i>×5</i></span></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 里程碑</h3><ul class="ms"><li><span class="md">2015-12-07</span> <span class="mt">初次亮相</span><div class="mn">第121次会议即兴环节上场，作为北科跨校新人加入北航头马。</div></li><li><span class="md">2016-06-02</span> <span class="mt">破冰演讲CC1</span><div class="mn">在第140次会议完成破冰《Welcome to the world of E-sports》。</div></li><li><span class="md">2017-04-21</span> <span class="mt">CC2致母校</span><div class="mn">以《Happy birthday to my school》向北京科技大学校庆深情告白。</div></li><li><span class="md">2017-10-20</span> <span class="mt">主持Pressure主题会议</span><div class="mn">作为成熟会员主持第183次会议，持续活跃在主持岗位。</div></li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 为俱乐部做的事</h3><ul class="contrib"><li>长期担任Toastmaster主持人，主持多场主题会议，串场稳定</li><li>多次担任即兴主持TTM，用心设计提问、活跃全场气氛</li><li>积极参与即兴演讲与情景剧表演，常与会员搭档制造欢乐</li><li>作为跨校（北京科技大学）会员，持续为俱乐部带来活力与多元视角</li><li>坚持完成CC1至CC4的备稿演讲，以体育、母校、青春为题展示真诚自我</li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 头马里的人</h3><div class="rels"><div class="relbox"><div class="rt">同台搭档</div><span class="nm">Huan</span><a class="nm" href="../member/Qiqi.html">Qiqi</a></div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 照片墙 · 时间线</h3><div class="wnote">共 29 帧，取自 TA 在场的会议。</div><div class="wall"><figure class="pm" data-full="../img/e45ad37a93c14f22.jpg" data-cap="2015-12-07 · 第121次 · 121st meeting minutes of Beihang TMC" data-href="../archive/0329.html"><img loading="lazy" src="../pm/e45ad37a93c14f22.jpg" alt=""></figure><figure class="pm" data-full="../img/522bf59c545494a4.jpg" data-cap="2015-12-07 · 第121次 · 121st meeting minutes of Beihang TMC" data-href="../archive/0329.html"><img loading="lazy" src="../pm/522bf59c545494a4.jpg" alt=""></figure><figure class="pm" data-full="../img/20c78acb087d2b47.jpg" data-cap="2015-12-07 · 第121次 · 121st meeting minutes of Beihang TMC" data-href="../archive/0329.html"><img loading="lazy" src="../pm/20c78acb087d2b47.jpg" alt=""></figure><figure class="pm" data-full="../img/42ccc5b1a1692222.jpg" data-cap="2015-12-07 · 第121次 · 121st meeting minutes of Beihang TMC" data-href="../archive/0329.html"><img loading="lazy" src="../pm/42ccc5b1a1692222.jpg" alt=""></figure><figure class="pm" data-full="../img/ecde823a323aaa07.png" data-cap="2016-05-14 · 第136次 · Right or wrong@minutes of Beihang TMC " data-href="../archive/0263.html"><img loading="lazy" src="../pm/ecde823a323aaa07.jpg" alt=""></figure><figure class="pm" data-full="../img/fd6208af2e6dd876.png" data-cap="2016-05-14 · 第136次 · Right or wrong@minutes of Beihang TMC " data-href="../archive/0263.html"><img loading="lazy" src="../pm/fd6208af2e6dd876.jpg" alt=""></figure><figure class="pm" data-full="../img/4b64ae84d59b548e.png" data-cap="2016-05-14 · 第136次 · Right or wrong@minutes of Beihang TMC " data-href="../archive/0263.html"><img loading="lazy" src="../pm/4b64ae84d59b548e.jpg" alt=""></figure><figure class="pm" data-full="../img/d9e2ea7bc6c3ba02.png" data-cap="2016-05-14 · 第136次 · Right or wrong@minutes of Beihang TMC " data-href="../archive/0263.html"><img loading="lazy" src="../pm/d9e2ea7bc6c3ba02.jpg" alt=""></figure><figure class="pm" data-full="../img/e9c2371d64a4f41d.png" data-cap="2016-05-14 · 第136次 · Right or wrong@minutes of Beihang TMC " data-href="../archive/0263.html"><img loading="lazy" src="../pm/e9c2371d64a4f41d.jpg" alt=""></figure><figure class="pm" data-full="../img/8810e949376a193d.png" data-cap="2016-05-14 · 第136次 · Right or wrong@minutes of Beihang TMC " data-href="../archive/0263.html"><img loading="lazy" src="../pm/8810e949376a193d.jpg" alt=""></figure><figure class="pm" data-full="../img/427a4f3c5bb7b0ae.png" data-cap="2016-05-14 · 第136次 · Right or wrong@minutes of Beihang TMC " data-href="../archive/0263.html"><img loading="lazy" src="../pm/427a4f3c5bb7b0ae.jpg" alt=""></figure><figure class="pm" data-full="../img/664b5695993a4d92.png" data-cap="2016-06-02 · 第140次 · Jack &amp; Rose@ Beihang TMC 140th Meeting" data-href="../archive/0246.html"><img loading="lazy" src="../pm/664b5695993a4d92.jpg" alt=""></figure><figure class="pm" data-full="../img/891c2a68f49ebe6d.png" data-cap="2016-06-05 · 第140次 · Jack and Rose@minutes of Beihang TMC 1" data-href="../archive/0244.html"><img loading="lazy" src="../pm/891c2a68f49ebe6d.jpg" alt=""></figure><figure class="pm" data-full="../img/1eb53d5acdc0cda9.png" data-cap="2016-06-05 · 第140次 · Jack and Rose@minutes of Beihang TMC 1" data-href="../archive/0244.html"><img loading="lazy" src="../pm/1eb53d5acdc0cda9.jpg" alt=""></figure><figure class="pm" data-full="../img/9a1c3346446a888d.jpg" data-cap="2017-03-24 · 第168次 · 时光机@BeihangTMC 168th Meeting 19:30 Mar" data-href="../archive/0143.html"><img loading="lazy" src="../pm/9a1c3346446a888d.jpg" alt=""></figure><figure class="pm" data-full="../img/a8174f9255012e14.jpg" data-cap="2017-03-28 · 第168次 · 时光机@BeiHang ToastMaster 168 Meeting Mi" data-href="../archive/0142.html"><img loading="lazy" src="../pm/a8174f9255012e14.jpg" alt=""></figure><figure class="pm" data-full="../img/bac1bb61454744b4.jpg" data-cap="2017-03-28 · 第168次 · 时光机@BeiHang ToastMaster 168 Meeting Mi" data-href="../archive/0142.html"><img loading="lazy" src="../pm/bac1bb61454744b4.jpg" alt=""></figure><figure class="pm" data-full="../img/f687883c4f9319b6.jpg" data-cap="2017-03-28 · 第168次 · 时光机@BeiHang ToastMaster 168 Meeting Mi" data-href="../archive/0142.html"><img loading="lazy" src="../pm/f687883c4f9319b6.jpg" alt=""></figure><figure class="pm" data-full="../img/afa0f9d6377e26f0.jpg" data-cap="2017-03-28 · 第168次 · 时光机@BeiHang ToastMaster 168 Meeting Mi" data-href="../archive/0142.html"><img loading="lazy" src="../pm/afa0f9d6377e26f0.jpg" alt=""></figure><figure class="pm" data-full="../img/fb346f2c84619c7a.jpg" data-cap="2017-03-28 · 第168次 · 时光机@BeiHang ToastMaster 168 Meeting Mi" data-href="../archive/0142.html"><img loading="lazy" src="../pm/fb346f2c84619c7a.jpg" alt=""></figure><figure class="pm" data-full="../img/d128808f70c90bd5.jpg" data-cap="2017-03-28 · 第168次 · 时光机@BeiHang ToastMaster 168 Meeting Mi" data-href="../archive/0142.html"><img loading="lazy" src="../pm/d128808f70c90bd5.jpg" alt=""></figure><figure class="pm" data-full="../img/485199939035aa17.jpg" data-cap="2017-04-23 · Love@BeiHangTMC-171th-Meeting Minutes" data-href="../archive/0130.html"><img loading="lazy" src="../pm/485199939035aa17.jpg" alt=""></figure><figure class="pm" data-full="../img/7f13a14cc4e48b56.jpg" data-cap="2017-04-23 · Love@BeiHangTMC-171th-Meeting Minutes" data-href="../archive/0130.html"><img loading="lazy" src="../pm/7f13a14cc4e48b56.jpg" alt=""></figure><figure class="pm" data-full="../img/620b6db7ad638932.jpg" data-cap="2017-04-23 · Love@BeiHangTMC-171th-Meeting Minutes" data-href="../archive/0130.html"><img loading="lazy" src="../pm/620b6db7ad638932.jpg" alt=""></figure><figure class="pm" data-full="../img/88848670aa889d61.jpg" data-cap="2017-06-23 · 第178次 · 毕业@Beihang TMC 178th Meeting@19:30 Jun" data-href="../archive/0114.html"><img loading="lazy" src="../pm/88848670aa889d61.jpg" alt=""></figure><figure class="pm" data-full="../img/6e7bee2e60a7d8c5.jpg" data-cap="2017-06-24 · 第178次 · 毕业@BeiHang TMC 178th Meeting Minutes" data-href="../archive/0113.html"><img loading="lazy" src="../pm/6e7bee2e60a7d8c5.jpg" alt=""></figure><figure class="pm" data-full="../img/ce9712ebdb176e92.jpg" data-cap="2017-06-24 · 第178次 · 毕业@BeiHang TMC 178th Meeting Minutes" data-href="../archive/0113.html"><img loading="lazy" src="../pm/ce9712ebdb176e92.jpg" alt=""></figure><figure class="pm" data-full="../img/ef1809650622a64e.jpg" data-cap="2017-06-24 · 第178次 · 毕业@BeiHang TMC 178th Meeting Minutes" data-href="../archive/0113.html"><img loading="lazy" src="../pm/ef1809650622a64e.jpg" alt=""></figure><figure class="pm" data-full="../img/c185bda82d565754.jpg" data-cap="2017-10-12 · 第182次 · @BeihangTMC 182th Meeting 19:30 Oct.13" data-href="../archive/0101.html"><img loading="lazy" src="../pm/c185bda82d565754.jpg" alt=""></figure></div></div><div class="pquote "><span class="qm">“</span>从零开始，下一步可能是0.00001,也可能是-0.00001,0到1是一个蜿蜒曲折的路程<span class="qm">”</span></div>
+</div>
+<footer><svg class="clover" style="color:var(--clover)"><use href="#cl"/></svg> 北航 Toastmasters 会员档案 · 一入头马门，从此一家人</footer>
+<div class="lb" id="lb" aria-hidden="true"><button class="lb-close">×</button><button class="lb-prev">‹</button><img class="lb-img" alt=""><button class="lb-next">›</button><a class="lb-cap" href="#" target="_blank" rel="noopener"></a></div>
+<script>
+const figs=[...document.querySelectorAll('.pm[data-full]')];const lb=document.getElementById('lb'),lbi=lb.querySelector('.lb-img'),lbc=lb.querySelector('.lb-cap');let cur=-1;
+function show(i){cur=(i+figs.length)%figs.length;const f=figs[cur];lbi.src=f.dataset.full;lbc.innerHTML=f.dataset.cap+'　<b>查看原文 →</b>';lbc.href=f.dataset.href}
+function op(i){show(i);lb.classList.add('open');document.body.style.overflow='hidden'}function cl(){lb.classList.remove('open');document.body.style.overflow=''}
+figs.forEach((f,i)=>f.addEventListener('click',()=>op(i)));
+lb.querySelector('.lb-close').onclick=cl;lb.querySelector('.lb-prev').onclick=e=>{e.stopPropagation();show(cur-1)};lb.querySelector('.lb-next').onclick=e=>{e.stopPropagation();show(cur+1)};
+lb.addEventListener('click',e=>{if(e.target===lb)cl()});addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')cl();else if(e.key==='ArrowLeft')show(cur-1);else if(e.key==='ArrowRight')show(cur+1)});
+</script></body></html>

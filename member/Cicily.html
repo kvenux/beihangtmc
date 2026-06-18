@@ -1,0 +1,114 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cicily · 北航 Toastmasters 会员档案</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#e7dec7;--paper2:#f3eeda;--cream:#fbf7ec;--ink:#24301b;--soft:#444e36;--muted:#857e62;
+--clover:#4f7d44;--clover-deep:#33602e;--clover-bright:#74a85f;--gold:#bd8a38;--gold-deep:#996b1f;--line:#d1c5a4;--rule:#c4b690;
+--serif:"Noto Serif SC",Georgia,serif;--fr:"Fraunces",Georgia,serif;--hw:"Ma Shan Zheng",cursive;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.85;font-size:16px;
+background-image:radial-gradient(ellipse at 12% 0%,rgba(79,125,68,.10),transparent 55%),radial-gradient(ellipse at 92% 100%,rgba(189,138,56,.08),transparent 52%)}
+.grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:var(--clover-deep)}
+.clover{width:1em;height:1em;display:inline-block;vertical-align:-.12em;fill:currentColor}.clover.xs{width:.9em;height:.9em}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px 90px}
+.topnav{display:flex;gap:18px;padding:18px 22px;max-width:880px;margin:0 auto;font-size:14px}
+.topnav a{color:var(--clover-deep);text-decoration:none}.topnav a:hover{text-decoration:underline}
+/* header */
+.phead{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:14px 0 8px;border-bottom:1px solid var(--rule);margin-bottom:26px}
+.avatar{width:104px;height:104px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 26px -12px rgba(30,40,12,.5);flex:none;background:var(--cream)}
+.avatar.ph{display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:42px;color:var(--clover)}
+.pid{min-width:0}
+.pname{font-family:var(--serif);font-weight:900;font-size:clamp(30px,6vw,46px);line-height:1.05;margin:0}
+.pname .real{font-size:.5em;color:var(--gold-deep);font-weight:600;margin-left:.4em}
+.ptag{color:var(--soft);font-size:15px;margin:8px 0 10px;max-width:48em}
+.pbadges{display:flex;gap:8px;flex-wrap:wrap}
+.pb{font-size:12.5px;background:rgba(79,125,68,.12);color:var(--clover-deep);border:1px solid rgba(79,125,68,.28);border-radius:999px;padding:3px 11px}
+.pb.gold{background:rgba(189,138,56,.14);color:var(--gold-deep);border-color:rgba(189,138,56,.3)}
+/* sections */
+.sec{margin:30px 0}
+.sec h3{font-family:var(--serif);font-weight:700;font-size:21px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
+.sec h3 .clover{color:var(--gold)}
+.bio p{margin:0 0 1em;color:var(--soft);text-align:justify;font-size:16px}
+/* CC progression */
+.cc{display:flex;flex-wrap:wrap;gap:8px}
+.ccnode{flex:1 1 84px;min-width:84px;border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:var(--cream);text-align:center;position:relative}
+.ccnode.done{background:linear-gradient(180deg,#5b8a4e,#3f6b33);border-color:var(--clover-deep);color:#fff;box-shadow:0 8px 18px -10px rgba(51,96,46,.5)}
+.ccnode .n{font-family:var(--serif);font-weight:900;font-size:18px}
+.ccnode .t{font-size:10.5px;line-height:1.25;margin-top:2px;opacity:.92}
+.ccnode.done .chk{position:absolute;top:4px;right:6px;font-size:11px}
+.ccmeta{font-size:13px;color:var(--muted);margin-top:8px}
+/* speeches */
+.spk{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin-bottom:16px}
+.spk .sh{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.spk .proj{font-size:11.5px;font-weight:700;color:#fff;background:var(--clover);border-radius:5px;padding:1px 8px}
+.spk .stt{font-family:var(--serif);font-weight:700;font-size:16.5px;color:var(--ink)}
+.spk .sd{font-family:var(--fr);font-style:italic;color:var(--muted);font-size:12.5px}
+.spk .ss{color:var(--soft);font-size:14.5px;margin-top:3px}
+/* roles / chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.rolechip{font-size:13.5px;background:var(--cream);border:1px solid var(--line);border-radius:8px;padding:5px 12px;color:var(--soft)}
+.rolechip b{color:var(--clover-deep)}.rolechip i{font-style:normal;color:var(--gold-deep);font-weight:700;margin-left:3px}
+/* milestones */
+.ms{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule);margin-left:6px}
+.ms li{position:relative;padding:0 0 16px 22px}
+.ms li::before{content:"";position:absolute;left:-7px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--clover);border:2px solid var(--paper)}
+.ms .md{font-family:var(--fr);font-style:italic;color:var(--gold-deep);font-size:13px}
+.ms .mt{font-weight:700;color:var(--ink);font-size:15px}
+.ms .mn{color:var(--soft);font-size:13.5px}
+.contrib{margin:0;padding-left:20px;color:var(--soft)}.contrib li{margin-bottom:6px;font-size:15px}
+/* relationships */
+.rels{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.relbox{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.relbox .rt{font-size:13px;color:var(--muted);margin-bottom:8px}
+.nm{display:inline-block;font-size:13.5px;background:rgba(79,125,68,.1);border:1px solid var(--line);border-radius:999px;padding:3px 11px;margin:0 5px 5px 0;color:var(--ink);text-decoration:none}
+a.nm:hover{background:var(--clover);color:#fff;border-color:var(--clover)}
+/* photo wall */
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:7px}
+.pm{position:relative;margin:0;aspect-ratio:1;overflow:hidden;border-radius:6px;cursor:pointer;border:2px solid #fff;box-shadow:0 6px 14px -8px rgba(30,40,12,.5);transition:transform .25s}
+.pm img{width:100%;height:100%;object-fit:cover;display:block;filter:sepia(.1) saturate(.97);transition:.3s}
+.pm:hover{transform:scale(1.07);z-index:3}.pm:hover img{filter:none}
+.pm .vchk{position:absolute;top:3px;right:3px;width:17px;height:17px;border-radius:50%;background:var(--clover);color:#fff;font-size:10px;line-height:17px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.wnote{font-size:12.5px;color:var(--muted);margin-bottom:10px;font-family:var(--fr);font-style:italic}
+/* quote */
+.pquote{font-family:var(--serif);font-weight:600;font-size:clamp(18px,2.6vw,24px);line-height:1.6;color:var(--clover-deep);text-align:center;
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:26px 10px;margin:34px 0}
+.pquote.en{font-family:var(--fr);font-style:italic;font-weight:400}
+.pquote .qm{color:var(--gold);font-size:1.5em;font-family:var(--serif)}
+footer{text-align:center;padding:30px 22px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule);max-width:880px;margin:30px auto 0}
+.lb{position:fixed;inset:0;z-index:10000;background:rgba(20,26,12,.93);display:none;align-items:center;justify-content:center;padding:5vh 2vw;backdrop-filter:blur(5px)}
+.lb.open{display:flex}.lb-img{max-width:92vw;max-height:80vh;object-fit:contain;border:7px solid #fbf7ec;border-radius:2px;background:#fbf7ec}
+.lb-cap{position:absolute;bottom:2.4vh;left:0;right:0;text-align:center;color:#e7dec7;font-size:14px;font-family:var(--fr);font-style:italic;text-decoration:none;padding:0 16px}.lb-cap b{color:var(--clover-bright);font-style:normal}
+.lb button{position:absolute;background:rgba(251,247,236,.12);border:1px solid rgba(251,247,236,.32);color:#fbf7ec;cursor:pointer;border-radius:50%;width:48px;height:48px;font-size:25px}
+.lb-close{top:3vh;right:3vw}.lb-prev{left:2.5vw;top:50%;transform:translateY(-50%)}.lb-next{right:2.5vw;top:50%;transform:translateY(-50%)}
+@media(max-width:600px){.avatar{width:80px;height:80px}.wall{grid-template-columns:repeat(auto-fill,minmax(76px,1fr))}.lb button{width:42px;height:42px}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="cl" viewBox="0 0 64 64">
+<g transform="translate(32,31)"><g transform="rotate(45)">
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(90)"/>
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(180)"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(270)"/>
+</g><path d="M1 4 C 5 15 -3 22 5 31" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></g></symbol></svg>
+<div class="grain"></div>
+<nav class="topnav"><a href="../members.html">← 会员足迹</a><a href="../index.html">回顾首页</a><a href="../archive/list.html">全部存档</a></nav>
+<div class="wrap">
+  <div class="phead"><div class="avatar ph">C</div>
+    <div class="pid">
+      <h1 class="pname">Cicily</h1>
+      <div class="ptag">发音动听、热爱英语的Big Bang女孩，从台下到台上一路绽放的头马新星。</div>
+      <div class="pbadges"><span class="pb">会员</span><span class="pb">活跃 2015–2016</span><span class="pb">出现 12 次 · 11 篇</span><span class="pb gold">4 场演讲</span></div>
+    </div>
+  </div>
+  <div class="sec bio"><p>Cicily 是北航头马里一位发音格外动听、对英语满怀热情的女孩。早在 2015 年深秋的第 117、118 次会议上，她就已活跃在即兴演讲的舞台——和 Crystal 搭档演绎&quot;知心姐姐&quot;的对话，分享自己心中如电影男主一般的 dream lover。那时的她，已经用流利清晰的口语让小编印象深刻。</p><p>2016 年春天，她正式开启了自己的备稿之路。第 134 次会议上，&quot;老朋友&quot;Cicily 带来破冰演讲《Here comes Cicily》，向大家郑重介绍自己、分享生命中最重要的三件事；这场首秀惊艳全场，&quot;gorgeous&quot;二字久久萦绕。此后她一路高歌：CC2《Luck and perspiration》延续了她一贯的丰富、流畅与充沛，连导师书华(Joshua)都迫不及待要将她收为门徒；CC3 她讲述与黄牛斗智斗勇的爱恨情仇，作为 Big Bang 的头号粉丝，她在屡屡涉及信任的交易里仍选择往好处想；CC4《My passion for English》则袒露她如何爱上这门语言、又为提升英语下过怎样的功夫。</p><p>除了演讲台，Cicily 也是俱乐部里靠谱的组织者。她多次担任即兴演讲主持(Table Topics Master)，无论是浪漫的&quot;520&quot;专场还是&quot;Chat Software&quot;主题，她精心准备的问题与流畅的衔接都让现场气氛高涨；她还在第 143 次会议担任 Toastmaster 主持全场，并在同一场会议里又主持又讲 CC，最终拿下当晚的 Best Speaker。从台下的即兴新人，到台上身兼数职的&quot;全能选手&quot;，Cicily 用真诚、用心和对英语的热爱，在北航头马留下了一段明亮的成长轨迹。</p></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 闯关之路 · Competent Communication</h3><div class="cc"><div class="ccnode done" title="The Ice Breaker · 介绍自己，体会基本演讲结构，建立开口的自信"><span class=chk>✓</span><div class="n">CC1</div><div class="t">破冰</div></div><div class="ccnode done" title="Organize Your Speech · 用清晰的开头、主体与结尾来组织内容"><span class=chk>✓</span><div class="n">CC2</div><div class="t">组织你的演讲</div></div><div class="ccnode done" title="Get to the Point · 确立明确的演讲目的，并始终紧扣主题"><span class=chk>✓</span><div class="n">CC3</div><div class="t">明确目标</div></div><div class="ccnode done" title="How to Say It · 精准的遣词、语法与修辞，让语言更有感染力"><span class=chk>✓</span><div class="n">CC4</div><div class="t">怎么说</div></div><div class="ccnode " title="Your Body Speaks · 用姿态、手势、表情与走位增强表达"><div class="n">CC5</div><div class="t">肢体在说话</div></div><div class="ccnode " title="Vocal Variety · 用音调、音量与节奏的变化打动听众"><div class="n">CC6</div><div class="t">声音的变化</div></div><div class="ccnode " title="Research Your Topic · 用扎实的资料与论据支撑观点"><div class="n">CC7</div><div class="t">研究你的主题</div></div><div class="ccnode " title="Get Comfortable with Visual Aids · 恰当地使用视觉辅助，提升演讲效果"><div class="n">CC8</div><div class="t">善用视觉辅助</div></div><div class="ccnode " title="Persuade with Power · 用逻辑与情感有力地说服听众"><div class="n">CC9</div><div class="t">以理服人</div></div><div class="ccnode " title="Inspire Your Audience · 以真诚与力量鼓舞、激励听众"><div class="n">CC10</div><div class="t">激励听众</div></div></div><div class="ccmeta">已完成 4/10 个 CC 备稿项目（依据存档推送，可能不全）。CC 是 Toastmasters 经典的十级演讲进阶手册。</div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 做过的演讲 · 4 场</h3><div class="spk"><div class="sh"><span class="proj">CC1</span><span class="stt">Here comes Cicily</span><span class="sd">2016-04-22 · 第134次</span></div><div class="ss">破冰演讲，正式向大家介绍自己，分享生命中最重要的三件事，首秀被赞gorgeous。</div></div><div class="spk"><div class="sh"><span class="proj">CC2</span><span class="stt">Luck and perspiration</span><span class="sd">2016-05-13 · 第137次</span></div><div class="ss">围绕运气与汗水谈自己对爱迪生名言的不同理解，演讲一如既往丰富、流畅、充沛。</div></div><div class="spk"><div class="sh"><span class="proj">CC3</span><span class="stt">My experience of trading with Huang Niu</span><span class="sd">2016-07-01 · 第143次</span></div><div class="ss">作为Big Bang头号粉丝，讲述与黄牛买票的爱恨情仇；虽屡涉信任问题，仍选择往好处想、信任对方。</div></div><div class="spk"><div class="sh"><span class="proj">CC4</span><span class="stt">My passion for English</span><span class="sd">2016-07-15 · 第145次</span></div><div class="ss">分享自己如何爱上英语，以及为提升英语效率所做的努力，展现她对这门语言的强烈热情。</div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 担任过的职责</h3><div class="chips"><span class="rolechip"><b>Table Topics Master 即兴主持</b><i>×2</i></span><span class="rolechip"><b>Toastmaster 主持</b></span></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 里程碑</h3><ul class="ms"><li><span class="md">2015-11-09</span> <span class="mt">活跃于即兴演讲</span><div class="mn">第117次会议与Crystal搭档演绎&#x27;知心姐姐&#x27;对话，发音清晰动听已获小编称赞。</div></li><li><span class="md">2016-04-22</span> <span class="mt">破冰首秀</span><div class="mn">第134次会议带来CC1《Here comes Cicily》，惊艳全场，被誉为gorgeous。</div></li><li><span class="md">2016-05-13</span> <span class="mt">首次包揽即兴与备稿Best</span><div class="mn">据137次预告，三周前的会议上她同时拿下table topic与prepared speech的best。</div></li><li><span class="md">2016-07-01</span> <span class="mt">身兼主持与演讲</span><div class="mn">第143次会议同时担任Toastmaster与CC3讲者，并在备稿环节夺得Best Speaker。</div></li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 为俱乐部做的事</h3><ul class="contrib"><li>多次担任即兴演讲主持(Table Topics Master)，为&#x27;520&#x27;&#x27;Chat Software&#x27;等主题专场精心设计问题、调动现场气氛</li><li>第143次会议担任全场Toastmaster，主持整场会议流程</li><li>作为成长迅速的活跃会员，持续完成CC1-CC4备稿演讲，并多次斩获Best Speaker，为新会员树立榜样</li><li>以动听的英语发音和对英语的热情感染club成员，分享自己提升英语的方法</li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 头马里的人</h3><div class="rels"><div class="relbox"><div class="rt">引荐 / 带过 TA 的</div><span class="nm">书华</span></div><div class="relbox"><div class="rt">同台搭档</div><a class="nm" href="../member/Crystal.html">Crystal</a></div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 照片墙 · 时间线</h3><div class="wnote">共 15 帧，取自 TA 在场的会议。</div><div class="wall"><figure class="pm" data-full="../img/73c976490efa1963.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/73c976490efa1963.jpg" alt=""></figure><figure class="pm" data-full="../img/9c07e03b9164bb5e.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/9c07e03b9164bb5e.jpg" alt=""></figure><figure class="pm" data-full="../img/37540766f3230741.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/37540766f3230741.jpg" alt=""></figure><figure class="pm" data-full="../img/73ef8c739bda1567.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/73ef8c739bda1567.jpg" alt=""></figure><figure class="pm" data-full="../img/4a120810c4a8ce63.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/4a120810c4a8ce63.jpg" alt=""></figure><figure class="pm" data-full="../img/18097a1b89040fe6.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/18097a1b89040fe6.jpg" alt=""></figure><figure class="pm" data-full="../img/2ce6d3c59879bf33.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/2ce6d3c59879bf33.jpg" alt=""></figure><figure class="pm" data-full="../img/ce243cddc336d204.jpg" data-cap="2015-11-17 · 第118次 · 118th meeting minutes of Beihang TMC" data-href="../archive/0342.html"><img loading="lazy" src="../pm/ce243cddc336d204.jpg" alt=""></figure><figure class="pm" data-full="../img/bd85393ff7c7585f.jpg" data-cap="2016-04-21 · 第134次 · Exercise@Beihang TMC 134th Meeting 19:" data-href="../archive/0277.html"><img loading="lazy" src="../pm/bd85393ff7c7585f.jpg" alt=""></figure><figure class="pm" data-full="../img/20d1cc23cfa6b534.png" data-cap="2016-05-17 · 第137次 · Tender@minutes of Beihang TMC 137th Me" data-href="../archive/0261.html"><img loading="lazy" src="../pm/20d1cc23cfa6b534.jpg" alt=""></figure><figure class="pm" data-full="../img/1a758cb296fbb6f3.jpg" data-cap="2016-05-17 · 第137次 · Tender@minutes of Beihang TMC 137th Me" data-href="../archive/0261.html"><img loading="lazy" src="../pm/1a758cb296fbb6f3.jpg" alt=""></figure><figure class="pm" data-full="../img/6ebbec31969f65c2.jpg" data-cap="2016-07-04 · 第143次 · Chat Software@minutes of Beihang TMC 1" data-href="../archive/0230.html"><img loading="lazy" src="../pm/6ebbec31969f65c2.jpg" alt=""></figure><figure class="pm" data-full="../img/13838600e1416a49.jpg" data-cap="2016-07-04 · 第143次 · Chat Software@minutes of Beihang TMC 1" data-href="../archive/0230.html"><img loading="lazy" src="../pm/13838600e1416a49.jpg" alt=""></figure><figure class="pm" data-full="../img/9e9150a369735a95.jpg" data-cap="2016-07-04 · 第143次 · Chat Software@minutes of Beihang TMC 1" data-href="../archive/0230.html"><img loading="lazy" src="../pm/9e9150a369735a95.jpg" alt=""></figure><figure class="pm" data-full="../img/19f33dfe75603f41.jpg" data-cap="2016-07-04 · 第143次 · Chat Software@minutes of Beihang TMC 1" data-href="../archive/0230.html"><img loading="lazy" src="../pm/19f33dfe75603f41.jpg" alt=""></figure></div></div><div class="pquote en"><span class="qm">“</span>My passion for English<span class="qm">”</span></div>
+</div>
+<footer><svg class="clover" style="color:var(--clover)"><use href="#cl"/></svg> 北航 Toastmasters 会员档案 · 一入头马门，从此一家人</footer>
+<div class="lb" id="lb" aria-hidden="true"><button class="lb-close">×</button><button class="lb-prev">‹</button><img class="lb-img" alt=""><button class="lb-next">›</button><a class="lb-cap" href="#" target="_blank" rel="noopener"></a></div>
+<script>
+const figs=[...document.querySelectorAll('.pm[data-full]')];const lb=document.getElementById('lb'),lbi=lb.querySelector('.lb-img'),lbc=lb.querySelector('.lb-cap');let cur=-1;
+function show(i){cur=(i+figs.length)%figs.length;const f=figs[cur];lbi.src=f.dataset.full;lbc.innerHTML=f.dataset.cap+'　<b>查看原文 →</b>';lbc.href=f.dataset.href}
+function op(i){show(i);lb.classList.add('open');document.body.style.overflow='hidden'}function cl(){lb.classList.remove('open');document.body.style.overflow=''}
+figs.forEach((f,i)=>f.addEventListener('click',()=>op(i)));
+lb.querySelector('.lb-close').onclick=cl;lb.querySelector('.lb-prev').onclick=e=>{e.stopPropagation();show(cur-1)};lb.querySelector('.lb-next').onclick=e=>{e.stopPropagation();show(cur+1)};
+lb.addEventListener('click',e=>{if(e.target===lb)cl()});addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')cl();else if(e.key==='ArrowLeft')show(cur-1);else if(e.key==='ArrowRight')show(cur+1)});
+</script></body></html>

@@ -1,0 +1,114 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Wesley · 北航 Toastmasters 会员档案</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#e7dec7;--paper2:#f3eeda;--cream:#fbf7ec;--ink:#24301b;--soft:#444e36;--muted:#857e62;
+--clover:#4f7d44;--clover-deep:#33602e;--clover-bright:#74a85f;--gold:#bd8a38;--gold-deep:#996b1f;--line:#d1c5a4;--rule:#c4b690;
+--serif:"Noto Serif SC",Georgia,serif;--fr:"Fraunces",Georgia,serif;--hw:"Ma Shan Zheng",cursive;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.85;font-size:16px;
+background-image:radial-gradient(ellipse at 12% 0%,rgba(79,125,68,.10),transparent 55%),radial-gradient(ellipse at 92% 100%,rgba(189,138,56,.08),transparent 52%)}
+.grain{position:fixed;inset:0;z-index:9000;pointer-events:none;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:var(--clover-deep)}
+.clover{width:1em;height:1em;display:inline-block;vertical-align:-.12em;fill:currentColor}.clover.xs{width:.9em;height:.9em}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px 90px}
+.topnav{display:flex;gap:18px;padding:18px 22px;max-width:880px;margin:0 auto;font-size:14px}
+.topnav a{color:var(--clover-deep);text-decoration:none}.topnav a:hover{text-decoration:underline}
+/* header */
+.phead{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:14px 0 8px;border-bottom:1px solid var(--rule);margin-bottom:26px}
+.avatar{width:104px;height:104px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 26px -12px rgba(30,40,12,.5);flex:none;background:var(--cream)}
+.avatar.ph{display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:42px;color:var(--clover)}
+.pid{min-width:0}
+.pname{font-family:var(--serif);font-weight:900;font-size:clamp(30px,6vw,46px);line-height:1.05;margin:0}
+.pname .real{font-size:.5em;color:var(--gold-deep);font-weight:600;margin-left:.4em}
+.ptag{color:var(--soft);font-size:15px;margin:8px 0 10px;max-width:48em}
+.pbadges{display:flex;gap:8px;flex-wrap:wrap}
+.pb{font-size:12.5px;background:rgba(79,125,68,.12);color:var(--clover-deep);border:1px solid rgba(79,125,68,.28);border-radius:999px;padding:3px 11px}
+.pb.gold{background:rgba(189,138,56,.14);color:var(--gold-deep);border-color:rgba(189,138,56,.3)}
+/* sections */
+.sec{margin:30px 0}
+.sec h3{font-family:var(--serif);font-weight:700;font-size:21px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
+.sec h3 .clover{color:var(--gold)}
+.bio p{margin:0 0 1em;color:var(--soft);text-align:justify;font-size:16px}
+/* CC progression */
+.cc{display:flex;flex-wrap:wrap;gap:8px}
+.ccnode{flex:1 1 84px;min-width:84px;border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:var(--cream);text-align:center;position:relative}
+.ccnode.done{background:linear-gradient(180deg,#5b8a4e,#3f6b33);border-color:var(--clover-deep);color:#fff;box-shadow:0 8px 18px -10px rgba(51,96,46,.5)}
+.ccnode .n{font-family:var(--serif);font-weight:900;font-size:18px}
+.ccnode .t{font-size:10.5px;line-height:1.25;margin-top:2px;opacity:.92}
+.ccnode.done .chk{position:absolute;top:4px;right:6px;font-size:11px}
+.ccmeta{font-size:13px;color:var(--muted);margin-top:8px}
+/* speeches */
+.spk{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin-bottom:16px}
+.spk .sh{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.spk .proj{font-size:11.5px;font-weight:700;color:#fff;background:var(--clover);border-radius:5px;padding:1px 8px}
+.spk .stt{font-family:var(--serif);font-weight:700;font-size:16.5px;color:var(--ink)}
+.spk .sd{font-family:var(--fr);font-style:italic;color:var(--muted);font-size:12.5px}
+.spk .ss{color:var(--soft);font-size:14.5px;margin-top:3px}
+/* roles / chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.rolechip{font-size:13.5px;background:var(--cream);border:1px solid var(--line);border-radius:8px;padding:5px 12px;color:var(--soft)}
+.rolechip b{color:var(--clover-deep)}.rolechip i{font-style:normal;color:var(--gold-deep);font-weight:700;margin-left:3px}
+/* milestones */
+.ms{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule);margin-left:6px}
+.ms li{position:relative;padding:0 0 16px 22px}
+.ms li::before{content:"";position:absolute;left:-7px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--clover);border:2px solid var(--paper)}
+.ms .md{font-family:var(--fr);font-style:italic;color:var(--gold-deep);font-size:13px}
+.ms .mt{font-weight:700;color:var(--ink);font-size:15px}
+.ms .mn{color:var(--soft);font-size:13.5px}
+.contrib{margin:0;padding-left:20px;color:var(--soft)}.contrib li{margin-bottom:6px;font-size:15px}
+/* relationships */
+.rels{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.relbox{background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.relbox .rt{font-size:13px;color:var(--muted);margin-bottom:8px}
+.nm{display:inline-block;font-size:13.5px;background:rgba(79,125,68,.1);border:1px solid var(--line);border-radius:999px;padding:3px 11px;margin:0 5px 5px 0;color:var(--ink);text-decoration:none}
+a.nm:hover{background:var(--clover);color:#fff;border-color:var(--clover)}
+/* photo wall */
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:7px}
+.pm{position:relative;margin:0;aspect-ratio:1;overflow:hidden;border-radius:6px;cursor:pointer;border:2px solid #fff;box-shadow:0 6px 14px -8px rgba(30,40,12,.5);transition:transform .25s}
+.pm img{width:100%;height:100%;object-fit:cover;display:block;filter:sepia(.1) saturate(.97);transition:.3s}
+.pm:hover{transform:scale(1.07);z-index:3}.pm:hover img{filter:none}
+.pm .vchk{position:absolute;top:3px;right:3px;width:17px;height:17px;border-radius:50%;background:var(--clover);color:#fff;font-size:10px;line-height:17px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.wnote{font-size:12.5px;color:var(--muted);margin-bottom:10px;font-family:var(--fr);font-style:italic}
+/* quote */
+.pquote{font-family:var(--serif);font-weight:600;font-size:clamp(18px,2.6vw,24px);line-height:1.6;color:var(--clover-deep);text-align:center;
+border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:26px 10px;margin:34px 0}
+.pquote.en{font-family:var(--fr);font-style:italic;font-weight:400}
+.pquote .qm{color:var(--gold);font-size:1.5em;font-family:var(--serif)}
+footer{text-align:center;padding:30px 22px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--rule);max-width:880px;margin:30px auto 0}
+.lb{position:fixed;inset:0;z-index:10000;background:rgba(20,26,12,.93);display:none;align-items:center;justify-content:center;padding:5vh 2vw;backdrop-filter:blur(5px)}
+.lb.open{display:flex}.lb-img{max-width:92vw;max-height:80vh;object-fit:contain;border:7px solid #fbf7ec;border-radius:2px;background:#fbf7ec}
+.lb-cap{position:absolute;bottom:2.4vh;left:0;right:0;text-align:center;color:#e7dec7;font-size:14px;font-family:var(--fr);font-style:italic;text-decoration:none;padding:0 16px}.lb-cap b{color:var(--clover-bright);font-style:normal}
+.lb button{position:absolute;background:rgba(251,247,236,.12);border:1px solid rgba(251,247,236,.32);color:#fbf7ec;cursor:pointer;border-radius:50%;width:48px;height:48px;font-size:25px}
+.lb-close{top:3vh;right:3vw}.lb-prev{left:2.5vw;top:50%;transform:translateY(-50%)}.lb-next{right:2.5vw;top:50%;transform:translateY(-50%)}
+@media(max-width:600px){.avatar{width:80px;height:80px}.wall{grid-template-columns:repeat(auto-fill,minmax(76px,1fr))}.lb button{width:42px;height:42px}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="cl" viewBox="0 0 64 64">
+<g transform="translate(32,31)"><g transform="rotate(45)">
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(90)"/>
+<path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(180)"/><path d="M0 0 C 13 -13 13 -30 0 -23 C -13 -30 -13 -13 0 0 Z" transform="rotate(270)"/>
+</g><path d="M1 4 C 5 15 -3 22 5 31" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></g></symbol></svg>
+<div class="grain"></div>
+<nav class="topnav"><a href="../members.html">← 会员足迹</a><a href="../index.html">回顾首页</a><a href="../archive/list.html">全部存档</a></nav>
+<div class="wrap">
+  <div class="phead"><img class="avatar" src="../avatars/Wesley.jpg" alt="Wesley">
+    <div class="pid">
+      <h1 class="pname">Wesley</h1>
+      <div class="ptag">北航头马的创始人与教父，一个用&quot;知行合一&quot;把一时心动变成一座俱乐部的人。</div>
+      <div class="pbadges"><span class="pb">干部</span><span class="pb gold">创始成员</span><span class="pb">活跃 2014–2016</span><span class="pb">出现 4 次 · 4 篇</span><span class="pb gold">1 场演讲</span></div>
+    </div>
+  </div>
+  <div class="sec bio"><p>Wesley 是北航Toastmasters的创始主席（founding president），也是俱乐部口中的&quot;教父&quot;&quot;创始人&quot;。他是北航6系（电子信息工程学院）的学长。据三周年纪要记载，三年多以前，他在一次偶然参加其他头马俱乐部会议时对一位常来活动的女孩一见钟情，为了和她有更多交集，便萌生了&quot;不如在北航也办一个头马俱乐部&quot;的念头。秉持母校&quot;知行合一&quot;的校训，他说干就干，于是有了北航头马的从无到有。小编对他的评价是&quot;正直可爱又善良&quot;，是北航莘莘学子中知行合一的杰出典范。</p><p>从俱乐部的历史脉络看，Wesley时代是&quot;白手起家&quot;的草创时期——此后才有Peter时代的苦心经营、Doris时代、以及Sophie时代的欣欣向荣。在100次纪念meeting的历史回顾中，他被尊称为&quot;教父Wesley&quot;，被认为是几代主席传承与发展的起点。</p><p>卸任后，Wesley仍是俱乐部最受欢迎的回访者之一。2014年9月第70次会议，他刚参加完吉隆坡举办的2014头马国际年会（Global Summit / International Convention），回到北航与大家分享见闻，被预告称为&quot;非常特别的人物&quot;&quot;非常活跃的演讲者&quot;。2016年6月第141次会议，他作为&quot;本期神秘嘉宾&quot;再度现身，被赞&quot;做的ge很棒&quot;，大家盼他常回来看看。一个因爱而起念、因行动而成事的人，把一时的心动凝成了一座能让人找到归属感的家。</p></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 做过的演讲 · 1 场</h3><div class="spk"><div class="sh"><span class="proj">AC</span><span class="stt">Sharing from 2014 KL International Convention</span><span class="sd">2014-09-12 · 第70次</span></div><div class="ss">分享他参加2014年吉隆坡头马国际年会（Global Summit）的见闻与体验，作为活跃演讲者回访俱乐部。</div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 担任过的职责</h3><div class="chips"><span class="rolechip"><b>创始主席 Founding President</b></span><span class="rolechip"><b>嘉宾/回访演讲者</b><i>×2</i></span></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 里程碑</h3><ul class="ms"><li><span class="md">2013</span> <span class="mt">创办北航Toastmasters</span><div class="mn">三年多前因在外部头马会议对一位女孩一见钟情，萌生在北航办头马的念头，秉持&#x27;知行合一&#x27;说干就干，成为创始主席。</div></li><li><span class="md">2014-09-12</span> <span class="mt">回访分享国际年会</span><div class="mn">第70次会议，刚参加完2014吉隆坡头马国际年会，回校分享经历。</div></li><li><span class="md">2015-06-17</span> <span class="mt">被尊为&#x27;教父&#x27;载入百次纪念</span><div class="mn">第100次meeting历史回顾中，被列为俱乐部传承之始：&#x27;从教父Wesley时代的白手起家&#x27;。</div></li><li><span class="md">2016-06</span> <span class="mt">三周年纪念</span><div class="mn">三周年趴上其创办俱乐部的故事被重温，被赞&#x27;正直可爱又善良&#x27;的杰出典范。</div></li><li><span class="md">2016-06-14</span> <span class="mt">神秘嘉宾回归</span><div class="mn">第141次会议作为&#x27;本期神秘嘉宾&#x27;现身，参与即兴并与Amy组CP，获大家热情欢迎。</div></li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 为俱乐部做的事</h3><ul class="contrib"><li>从零创办北航Toastmasters俱乐部，奠定俱乐部的根基</li><li>作为创始主席开启&#x27;白手起家&#x27;的草创时代，成为几代主席传承的起点</li><li>参加2014吉隆坡头马国际年会并回校向会员分享，连接俱乐部与国际头马</li><li>卸任后持续回访、参与会议（即兴、嘉宾分享），保持对俱乐部的关怀与支持</li></ul></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 头马里的人</h3><div class="rels"><div class="relbox"><div class="rt">同台搭档</div><a class="nm" href="../member/Amy.html">Amy</a></div></div></div><div class="sec"><h3><svg class="clover xs"><use href="#cl"/></svg> 照片墙 · 时间线</h3><div class="wnote">共 16 帧，其中 3 帧已用人脸识别确认是本人（带 ✓）。</div><div class="wall"><figure class="pm" data-full="../img/9407145347a864e8.jpg" data-cap="2014-09-11 · 第70次 · Welcome Letter for 70th Meeting @Beiha" data-href="../archive/0511.html"><img loading="lazy" src="../pm/9407145347a864e8.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/4b77b91cd26aa636.jpg" data-cap="2016-06-14 · 第141次 · Let’s celebrate together@minutes of Be" data-href="../archive/0240.html"><img loading="lazy" src="../pm/4b77b91cd26aa636.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/67797820d9227a15.jpg" data-cap="2018-06-13 · 第200次 · 20180608 北航俱乐部第200次会议盛典 总结" data-href="../archive/0066.html"><img loading="lazy" src="../pm/67797820d9227a15.jpg" alt=""><span class="vchk" title="已确认本人">✓</span></figure><figure class="pm" data-full="../img/f670bc197a2fdb35.jpg" data-cap="2015-06-17 · 第100次 · 100th Meeting Minutes of BeihangTMC" data-href="../archive/0432.html"><img loading="lazy" src="../pm/f670bc197a2fdb35.jpg" alt=""></figure><figure class="pm" data-full="../img/a87338ba9d62cc27.jpg" data-cap="2015-06-17 · 第100次 · 100th Meeting Minutes of BeihangTMC" data-href="../archive/0432.html"><img loading="lazy" src="../pm/a87338ba9d62cc27.jpg" alt=""></figure><figure class="pm" data-full="../img/8775e36c54232f27.jpg" data-cap="2015-06-17 · 第100次 · 100th Meeting Minutes of BeihangTMC" data-href="../archive/0432.html"><img loading="lazy" src="../pm/8775e36c54232f27.jpg" alt=""></figure><figure class="pm" data-full="../img/bb3be937bb140b10.jpg" data-cap="2015-06-17 · 第100次 · 100th Meeting Minutes of BeihangTMC" data-href="../archive/0432.html"><img loading="lazy" src="../pm/bb3be937bb140b10.jpg" alt=""></figure><figure class="pm" data-full="../img/9b6ba24cf8703050.jpg" data-cap="2015-06-17 · 第100次 · 100th Meeting Minutes of BeihangTMC" data-href="../archive/0432.html"><img loading="lazy" src="../pm/9b6ba24cf8703050.jpg" alt=""></figure><figure class="pm" data-full="../img/839e77f3e7087d03.jpg" data-cap="2016-06-14 · 第141次 · Let’s celebrate together@minutes of Be" data-href="../archive/0240.html"><img loading="lazy" src="../pm/839e77f3e7087d03.jpg" alt=""></figure><figure class="pm" data-full="../img/3a52088751fcf401.jpg" data-cap="2016-06-14 · 第141次 · Let’s celebrate together@minutes of Be" data-href="../archive/0240.html"><img loading="lazy" src="../pm/3a52088751fcf401.jpg" alt=""></figure><figure class="pm" data-full="../img/3f1bf19f1755178c.jpg" data-cap="2016-06-14 · 第141次 · Let’s celebrate together@minutes of Be" data-href="../archive/0240.html"><img loading="lazy" src="../pm/3f1bf19f1755178c.jpg" alt=""></figure><figure class="pm" data-full="../img/f36e9916206e6dc3.jpg" data-cap="2016-06-14 · 第141次 · Let’s celebrate together@minutes of Be" data-href="../archive/0240.html"><img loading="lazy" src="../pm/f36e9916206e6dc3.jpg" alt=""></figure><figure class="pm" data-full="../img/e2e8f3a2d1d75842.png" data-cap="2016-06-27 · Minutes of Beihang TMC 3rd Anniversary" data-href="../archive/0234.html"><img loading="lazy" src="../pm/e2e8f3a2d1d75842.jpg" alt=""></figure><figure class="pm" data-full="../img/ec1eeb4c8757ffb3.png" data-cap="2016-06-27 · Minutes of Beihang TMC 3rd Anniversary" data-href="../archive/0234.html"><img loading="lazy" src="../pm/ec1eeb4c8757ffb3.jpg" alt=""></figure><figure class="pm" data-full="../img/deb0af32cd5d5d98.png" data-cap="2016-06-27 · Minutes of Beihang TMC 3rd Anniversary" data-href="../archive/0234.html"><img loading="lazy" src="../pm/deb0af32cd5d5d98.jpg" alt=""></figure><figure class="pm" data-full="../img/794beb6b305cfa4a.png" data-cap="2016-06-27 · Minutes of Beihang TMC 3rd Anniversary" data-href="../archive/0234.html"><img loading="lazy" src="../pm/794beb6b305cfa4a.jpg" alt=""></figure></div></div><div class="pquote "><span class="qm">“</span>不如在我们北航也创办一个头马俱乐部吧。<span class="qm">”</span></div>
+</div>
+<footer><svg class="clover" style="color:var(--clover)"><use href="#cl"/></svg> 北航 Toastmasters 会员档案 · 一入头马门，从此一家人</footer>
+<div class="lb" id="lb" aria-hidden="true"><button class="lb-close">×</button><button class="lb-prev">‹</button><img class="lb-img" alt=""><button class="lb-next">›</button><a class="lb-cap" href="#" target="_blank" rel="noopener"></a></div>
+<script>
+const figs=[...document.querySelectorAll('.pm[data-full]')];const lb=document.getElementById('lb'),lbi=lb.querySelector('.lb-img'),lbc=lb.querySelector('.lb-cap');let cur=-1;
+function show(i){cur=(i+figs.length)%figs.length;const f=figs[cur];lbi.src=f.dataset.full;lbc.innerHTML=f.dataset.cap+'　<b>查看原文 →</b>';lbc.href=f.dataset.href}
+function op(i){show(i);lb.classList.add('open');document.body.style.overflow='hidden'}function cl(){lb.classList.remove('open');document.body.style.overflow=''}
+figs.forEach((f,i)=>f.addEventListener('click',()=>op(i)));
+lb.querySelector('.lb-close').onclick=cl;lb.querySelector('.lb-prev').onclick=e=>{e.stopPropagation();show(cur-1)};lb.querySelector('.lb-next').onclick=e=>{e.stopPropagation();show(cur+1)};
+lb.addEventListener('click',e=>{if(e.target===lb)cl()});addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')cl();else if(e.key==='ArrowLeft')show(cur-1);else if(e.key==='ArrowRight')show(cur+1)});
+</script></body></html>
